@@ -1,0 +1,25 @@
+2025-05-03 08:00:47,052 - training.model_MobileNetV3_opt_Adam_lr_0.0001_id_607 - INFO - Initialized training manager for model_MobileNetV3_opt_Adam_lr_0.0001_id_607
+2025-05-03 08:00:47,052 - training.model_MobileNetV3_opt_Adam_lr_0.0001_id_607 - INFO - Config: {
+  "id": 607,
+  "model_name": "MobileNetV3",
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 08:00:47,226 - training.model_MobileNetV3_opt_Adam_lr_0.0001_id_607 - INFO - Starting model evaluation
+2025-05-03 08:00:56,765 - training.model_MobileNetV3_opt_Adam_lr_0.0001_id_607 - INFO - Evaluation metrics:
+  Accuracy:  0.9653
+  Precision: 0.9343
+  Recall:    0.9441
+  F1 Score:  0.9391
+  IoU:       0.8852
+  mAP:       0.9777
+  AUC:       0.9897
+2025-05-03 08:00:56,766 - training.model_MobileNetV3_opt_Adam_lr_0.0001_id_607 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_Adam_lr_0.0001_id_607/final_results.json
+2025-05-03 08:00:56,768 - training.model_MobileNetV3_opt_Adam_lr_0.0001_id_607 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_Adam_lr_0.0001_id_607/final_results.json

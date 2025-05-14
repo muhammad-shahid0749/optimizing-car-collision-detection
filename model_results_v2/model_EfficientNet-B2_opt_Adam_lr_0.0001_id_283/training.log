@@ -1,0 +1,25 @@
+2025-05-01 09:22:10,917 - training.model_EfficientNet-B2_opt_Adam_lr_0.0001_id_283 - INFO - Initialized training manager for model_EfficientNet-B2_opt_Adam_lr_0.0001_id_283
+2025-05-01 09:22:10,917 - training.model_EfficientNet-B2_opt_Adam_lr_0.0001_id_283 - INFO - Config: {
+  "id": 283,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 09:22:12,235 - training.model_EfficientNet-B2_opt_Adam_lr_0.0001_id_283 - INFO - Starting model evaluation
+2025-05-01 09:22:23,680 - training.model_EfficientNet-B2_opt_Adam_lr_0.0001_id_283 - INFO - Evaluation metrics:
+  Accuracy:  0.9653
+  Precision: 0.9115
+  Recall:    0.9720
+  F1 Score:  0.9408
+  IoU:       0.8882
+  mAP:       0.9849
+  AUC:       0.9929
+2025-05-01 09:22:23,682 - training.model_EfficientNet-B2_opt_Adam_lr_0.0001_id_283 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_Adam_lr_0.0001_id_283/final_results.json
+2025-05-01 09:22:23,683 - training.model_EfficientNet-B2_opt_Adam_lr_0.0001_id_283 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_Adam_lr_0.0001_id_283/final_results.json

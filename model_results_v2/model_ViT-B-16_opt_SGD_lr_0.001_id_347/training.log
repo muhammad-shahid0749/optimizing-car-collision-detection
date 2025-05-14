@@ -1,0 +1,27 @@
+2025-05-01 11:27:51,535 - training.model_ViT-B-16_opt_SGD_lr_0.001_id_347 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.001_id_347
+2025-05-01 11:27:51,535 - training.model_ViT-B-16_opt_SGD_lr_0.001_id_347 - INFO - Config: {
+  "id": 347,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 11:27:52,605 - training.model_ViT-B-16_opt_SGD_lr_0.001_id_347 - INFO - Starting model evaluation
+2025-05-01 11:28:04,714 - training.model_ViT-B-16_opt_SGD_lr_0.001_id_347 - INFO - Evaluation metrics:
+  Accuracy:  0.9633
+  Precision: 0.9368
+  Recall:    0.9336
+  F1 Score:  0.9352
+  IoU:       0.8783
+  mAP:       0.9827
+  AUC:       0.9924
+2025-05-01 11:28:04,715 - training.model_ViT-B-16_opt_SGD_lr_0.001_id_347 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_SGD_lr_0.001_id_347/final_results.json
+2025-05-01 11:28:04,717 - training.model_ViT-B-16_opt_SGD_lr_0.001_id_347 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_SGD_lr_0.001_id_347/final_results.json

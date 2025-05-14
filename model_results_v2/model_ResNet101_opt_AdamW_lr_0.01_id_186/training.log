@@ -1,0 +1,43 @@
+2025-05-01 06:23:06,245 - training.model_ResNet101_opt_AdamW_lr_0.01_id_186 - INFO - Initialized training manager for model_ResNet101_opt_AdamW_lr_0.01_id_186
+2025-05-01 06:23:06,245 - training.model_ResNet101_opt_AdamW_lr_0.01_id_186 - INFO - Config: {
+  "id": 186,
+  "model_name": "ResNet101",
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 00:05:26,693 - training.model_ResNet101_opt_AdamW_lr_0.01_id_186 - INFO - Initialized training manager for model_ResNet101_opt_AdamW_lr_0.01_id_186
+2025-05-03 00:05:26,693 - training.model_ResNet101_opt_AdamW_lr_0.01_id_186 - INFO - Config: {
+  "id": 186,
+  "model_name": "ResNet101",
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 00:05:27,232 - training.model_ResNet101_opt_AdamW_lr_0.01_id_186 - INFO - Starting model evaluation
+2025-05-03 00:05:36,890 - training.model_ResNet101_opt_AdamW_lr_0.01_id_186 - INFO - Evaluation metrics:
+  Accuracy:  0.7166
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+  IoU:       0.0000
+  mAP:       0.2833
+  AUC:       0.4921
+2025-05-03 00:05:36,894 - training.model_ResNet101_opt_AdamW_lr_0.01_id_186 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_AdamW_lr_0.01_id_186/final_results.json
+2025-05-03 00:05:36,895 - training.model_ResNet101_opt_AdamW_lr_0.01_id_186 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_AdamW_lr_0.01_id_186/final_results.json

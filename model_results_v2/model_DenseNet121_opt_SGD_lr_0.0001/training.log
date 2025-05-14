@@ -1,0 +1,1546 @@
+2025-05-01 12:15:21,346 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-01 12:15:21,346 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 457,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 12:15:21,346 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - No checkpoint found, starting fresh training
+2025-05-01 12:15:21,348 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 1/20
+2025-05-01 12:15:47,924 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 0
+2025-05-01 12:16:18,030 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.0000 to 0.7890
+2025-05-01 12:16:18,059 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 1 completed in 56.71s - Train Loss: 0.6455, Train Acc: 0.6731, Val Loss: 0.5859, Val Acc: 0.7890
+2025-05-01 12:16:18,137 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 0
+2025-05-01 12:16:18,137 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 2/20
+2025-05-01 12:16:37,266 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 1
+2025-05-01 12:17:03,480 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.7890 to 0.8216
+2025-05-01 12:17:03,524 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 2 completed in 45.39s - Train Loss: 0.5695, Train Acc: 0.7992, Val Loss: 0.5358, Val Acc: 0.8216
+2025-05-01 12:17:03,600 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 1
+2025-05-01 12:17:03,600 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 3/20
+2025-05-01 12:17:22,578 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 2
+2025-05-01 12:17:49,966 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8216 to 0.8439
+2025-05-01 12:17:50,010 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 3 completed in 46.41s - Train Loss: 0.5288, Train Acc: 0.8323, Val Loss: 0.5052, Val Acc: 0.8439
+2025-05-01 12:17:50,089 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 2
+2025-05-01 12:17:50,089 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 4/20
+2025-05-01 12:18:09,631 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 3
+2025-05-01 12:18:35,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8439 to 0.8542
+2025-05-01 12:18:35,998 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 4 completed in 45.91s - Train Loss: 0.5027, Train Acc: 0.8468, Val Loss: 0.4855, Val Acc: 0.8542
+2025-05-01 12:18:36,074 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 3
+2025-05-01 12:18:36,074 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 5/20
+2025-05-03 03:47:46,451 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 03:47:46,454 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 457,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 03:47:46,454 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 03:47:46,611 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 4, best validation accuracy: 0.8542
+2025-05-03 03:47:46,612 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 5/20
+2025-05-03 03:48:10,436 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 4
+2025-05-03 03:48:42,633 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8542 to 0.8662
+2025-05-03 03:48:42,672 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 5 completed in 56.06s - Train Loss: 0.4816, Train Acc: 0.8636, Val Loss: 0.4667, Val Acc: 0.8662
+2025-05-03 03:48:42,738 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 4
+2025-05-03 03:48:42,738 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 6/20
+2025-05-03 03:49:05,911 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 5
+2025-05-03 03:49:37,534 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8662 to 0.8834
+2025-05-03 03:49:37,573 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 6 completed in 54.84s - Train Loss: 0.4652, Train Acc: 0.8762, Val Loss: 0.4529, Val Acc: 0.8834
+2025-05-03 03:49:37,639 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 5
+2025-05-03 03:49:37,639 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 7/20
+2025-05-03 03:50:01,611 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 6
+2025-05-03 03:50:32,538 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8834 to 0.8851
+2025-05-03 03:50:32,578 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 7 completed in 54.94s - Train Loss: 0.4511, Train Acc: 0.8904, Val Loss: 0.4409, Val Acc: 0.8851
+2025-05-03 03:50:32,643 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 6
+2025-05-03 03:50:32,643 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 8/20
+2025-05-03 03:50:56,863 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 7
+2025-05-03 03:51:29,761 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8851 to 0.9039
+2025-05-03 03:51:29,821 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 8 completed in 57.18s - Train Loss: 0.4407, Train Acc: 0.8955, Val Loss: 0.4307, Val Acc: 0.9039
+2025-05-03 03:51:29,885 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 7
+2025-05-03 03:51:29,886 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 9/20
+2025-05-03 03:51:52,920 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 8
+2025-05-03 03:52:25,257 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9039 to 0.9142
+2025-05-03 03:52:25,295 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 9 completed in 55.41s - Train Loss: 0.4263, Train Acc: 0.9101, Val Loss: 0.4239, Val Acc: 0.9142
+2025-05-03 03:52:25,363 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 8
+2025-05-03 03:52:25,364 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 10/20
+2025-05-03 03:52:49,391 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 9
+2025-05-03 03:53:21,181 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9142 to 0.9211
+2025-05-03 03:53:21,223 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 10 completed in 55.86s - Train Loss: 0.4185, Train Acc: 0.9204, Val Loss: 0.4124, Val Acc: 0.9211
+2025-05-03 03:53:21,289 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 9
+2025-05-03 03:53:21,289 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 11/20
+2025-05-03 03:53:45,228 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 10
+2025-05-03 03:54:18,561 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation loss improved from inf to 0.4124
+2025-05-03 03:54:18,600 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 11 completed in 57.31s - Train Loss: 0.4123, Train Acc: 0.9256, Val Loss: 0.4124, Val Acc: 0.9194
+2025-05-03 03:54:18,675 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 10
+2025-05-03 03:54:18,675 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 12/20
+2025-05-03 03:54:41,692 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 11
+2025-05-03 03:55:13,268 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.4124 to 0.4122
+2025-05-03 03:55:13,308 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 12 completed in 54.63s - Train Loss: 0.4087, Train Acc: 0.9273, Val Loss: 0.4122, Val Acc: 0.9202
+2025-05-03 03:55:13,375 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 11
+2025-05-03 03:55:13,375 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 13/20
+2025-05-03 03:55:36,491 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 12
+2025-05-03 03:56:07,442 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9211 to 0.9245
+2025-05-03 03:56:07,482 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 13 completed in 54.11s - Train Loss: 0.4093, Train Acc: 0.9281, Val Loss: 0.4089, Val Acc: 0.9245
+2025-05-03 03:56:07,547 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 12
+2025-05-03 03:56:07,547 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 14/20
+2025-05-03 03:56:31,214 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 13
+2025-05-03 03:57:02,490 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.4122 to 0.4105
+2025-05-03 03:57:02,548 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 14 completed in 55.00s - Train Loss: 0.4062, Train Acc: 0.9305, Val Loss: 0.4105, Val Acc: 0.9245
+2025-05-03 03:57:02,612 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 13
+2025-05-03 03:57:02,613 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 15/20
+2025-05-03 03:57:26,803 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 14
+2025-05-03 03:57:58,902 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9245 to 0.9280
+2025-05-03 03:57:58,944 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 15 completed in 56.33s - Train Loss: 0.4076, Train Acc: 0.9303, Val Loss: 0.4079, Val Acc: 0.9280
+2025-05-03 03:57:59,014 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 14
+2025-05-03 03:57:59,014 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 16/20
+2025-05-03 03:58:23,882 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 15
+2025-05-03 03:58:55,499 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9280 to 0.9322
+2025-05-03 03:58:55,539 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 16 completed in 56.52s - Train Loss: 0.4055, Train Acc: 0.9305, Val Loss: 0.4058, Val Acc: 0.9322
+2025-05-03 03:58:55,602 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 15
+2025-05-03 03:58:55,603 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 17/20
+2025-05-03 03:59:19,798 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 16
+2025-05-03 03:59:50,964 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.4105 to 0.4059
+2025-05-03 03:59:51,004 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 17 completed in 55.40s - Train Loss: 0.4052, Train Acc: 0.9309, Val Loss: 0.4059, Val Acc: 0.9254
+2025-05-03 03:59:51,066 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 16
+2025-05-03 03:59:51,067 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 18/20
+2025-05-03 04:00:14,906 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 17
+2025-05-03 04:00:47,474 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.4059 to 0.4059
+2025-05-03 04:00:47,514 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 18 completed in 56.45s - Train Loss: 0.4053, Train Acc: 0.9326, Val Loss: 0.4059, Val Acc: 0.9228
+2025-05-03 04:00:47,582 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 17
+2025-05-03 04:00:47,583 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 19/20
+2025-05-03 04:01:11,754 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 18
+2025-05-03 04:01:43,870 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.4059 to 0.4057
+2025-05-03 04:01:43,910 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 19 completed in 56.33s - Train Loss: 0.4032, Train Acc: 0.9337, Val Loss: 0.4057, Val Acc: 0.9262
+2025-05-03 04:01:43,976 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 18
+2025-05-03 04:01:43,976 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Starting epoch 20/20
+2025-05-03 04:02:07,416 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 19
+2025-05-03 04:02:39,331 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.4057 to 0.4054
+2025-05-03 04:02:39,371 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Epoch 20 completed in 55.39s - Train Loss: 0.4053, Train Acc: 0.9288, Val Loss: 0.4054, Val Acc: 0.9271
+2025-05-03 04:02:39,434 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 19
+2025-05-03 04:02:39,434 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:02:51,853 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:02:51,853 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:02:51,853 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 458,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:02:51,853 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 458,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:02:51,853 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:02:51,853 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:02:51,980 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:02:51,980 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:02:51,982 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:02:51,982 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:03,553 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:03,553 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:03,553 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:03,553 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 459,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:03:03,553 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 459,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:03:03,553 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 459,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:03:03,553 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:03,553 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:03,553 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:03,679 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:03,679 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:03,679 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:03,681 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:03,681 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:03,681 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 460,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 460,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 460,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 460,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:16,092 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:16,218 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:16,218 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:16,218 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:16,218 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:16,220 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:16,220 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:16,220 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:16,220 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 461,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 461,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 461,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 461,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 461,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:28,549 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:28,675 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:28,675 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:28,675 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:28,675 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:28,675 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:28,677 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:28,677 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:28,677 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:28,677 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:28,677 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 462,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 462,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 462,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 462,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 462,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 462,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:40,290 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:40,496 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:40,496 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:40,496 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:40,496 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:40,496 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:40,496 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:40,497 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:40,497 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:40,497 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:40,497 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:40,497 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:40,497 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 463,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 463,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 463,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 463,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 463,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 463,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 463,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:52,943 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:03:53,071 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:53,071 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:53,071 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:53,071 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:53,071 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:53,071 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:53,071 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:03:53,073 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:53,073 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:53,073 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:53,073 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:53,073 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:53,073 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:03:53,073 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 464,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 464,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 464,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 464,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 464,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 464,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 464,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 464,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:05,095 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:05,221 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:05,221 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:05,221 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:05,221 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:05,221 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:05,221 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:05,221 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:05,221 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:05,223 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:05,223 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:05,223 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:05,223 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:05,223 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:05,223 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:05,223 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:05,223 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 465,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 465,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 465,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 465,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 465,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 465,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 465,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 465,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 465,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:17,285 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:17,411 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:17,411 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:17,411 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:17,411 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:17,411 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:17,411 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:17,411 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:17,411 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:17,411 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:17,412 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:17,412 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:17,412 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:17,412 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:17,412 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:17,412 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:17,412 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:17,412 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:17,412 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 466,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,725 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,851 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:29,852 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,696 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 467,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,697 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,822 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:41,824 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 468,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,872 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,997 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9322
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds
+2025-05-03 04:04:53,999 - training.model_DenseNet121_opt_SGD_lr_0.0001 - INFO - Training completed after 1087.41 seconds

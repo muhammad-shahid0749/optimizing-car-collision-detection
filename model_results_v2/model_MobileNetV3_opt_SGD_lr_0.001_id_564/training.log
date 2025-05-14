@@ -1,0 +1,26 @@
+2025-05-03 06:48:08,487 - training.model_MobileNetV3_opt_SGD_lr_0.001_id_564 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.001_id_564
+2025-05-03 06:48:08,487 - training.model_MobileNetV3_opt_SGD_lr_0.001_id_564 - INFO - Config: {
+  "id": 564,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:48:08,713 - training.model_MobileNetV3_opt_SGD_lr_0.001_id_564 - INFO - Starting model evaluation
+2025-05-03 06:48:17,859 - training.model_MobileNetV3_opt_SGD_lr_0.001_id_564 - INFO - Evaluation metrics:
+  Accuracy:  0.9554
+  Precision: 0.9030
+  Recall:    0.9441
+  F1 Score:  0.9231
+  IoU:       0.8571
+  mAP:       0.9798
+  AUC:       0.9894
+2025-05-03 06:48:17,861 - training.model_MobileNetV3_opt_SGD_lr_0.001_id_564 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_SGD_lr_0.001_id_564/final_results.json
+2025-05-03 06:48:17,862 - training.model_MobileNetV3_opt_SGD_lr_0.001_id_564 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_SGD_lr_0.001_id_564/final_results.json

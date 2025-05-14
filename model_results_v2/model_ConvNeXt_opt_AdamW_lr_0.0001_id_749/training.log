@@ -1,0 +1,28 @@
+2025-05-03 13:57:24,960 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_749 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.0001_id_749
+2025-05-03 13:57:24,961 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_749 - INFO - Config: {
+  "id": 749,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:57:26,364 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_749 - INFO - Starting model evaluation
+2025-05-03 13:57:37,881 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_749 - INFO - Evaluation metrics:
+  Accuracy:  0.9534
+  Precision: 0.8944
+  Recall:    0.9476
+  F1 Score:  0.9202
+  IoU:       0.8522
+  mAP:       0.9776
+  AUC:       0.9897
+2025-05-03 13:57:37,883 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_749 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.0001_id_749/final_results.json
+2025-05-03 13:57:37,885 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_749 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.0001_id_749/final_results.json

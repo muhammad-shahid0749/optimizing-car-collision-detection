@@ -1,0 +1,45 @@
+2025-05-01 11:28:56,252 - training.model_ViT-B-16_opt_Adam_lr_0.001_id_377 - INFO - Initialized training manager for model_ViT-B-16_opt_Adam_lr_0.001_id_377
+2025-05-01 11:28:56,253 - training.model_ViT-B-16_opt_Adam_lr_0.001_id_377 - INFO - Config: {
+  "id": 377,
+  "model_name": "ViT-B-16",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 01:42:51,288 - training.model_ViT-B-16_opt_Adam_lr_0.001_id_377 - INFO - Initialized training manager for model_ViT-B-16_opt_Adam_lr_0.001_id_377
+2025-05-03 01:42:51,292 - training.model_ViT-B-16_opt_Adam_lr_0.001_id_377 - INFO - Config: {
+  "id": 377,
+  "model_name": "ViT-B-16",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 01:42:52,277 - training.model_ViT-B-16_opt_Adam_lr_0.001_id_377 - INFO - Starting model evaluation
+2025-05-03 01:43:58,504 - training.model_ViT-B-16_opt_Adam_lr_0.001_id_377 - INFO - Evaluation metrics:
+  Accuracy:  0.7166
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+  IoU:       0.0000
+  mAP:       0.2791
+  AUC:       0.4843
+2025-05-03 01:43:58,506 - training.model_ViT-B-16_opt_Adam_lr_0.001_id_377 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_Adam_lr_0.001_id_377/final_results.json
+2025-05-03 01:43:58,508 - training.model_ViT-B-16_opt_Adam_lr_0.001_id_377 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_Adam_lr_0.001_id_377/final_results.json

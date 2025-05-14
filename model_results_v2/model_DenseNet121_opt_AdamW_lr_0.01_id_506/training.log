@@ -1,0 +1,28 @@
+2025-05-03 05:17:00,811 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_506 - INFO - Initialized training manager for model_DenseNet121_opt_AdamW_lr_0.01_id_506
+2025-05-03 05:17:00,811 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_506 - INFO - Config: {
+  "id": 506,
+  "model_name": "DenseNet121",
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 05:22:42,319 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_506 - INFO - Starting model evaluation
+2025-05-03 05:22:54,314 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_506 - INFO - Evaluation metrics:
+  Accuracy:  0.7166
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+  IoU:       0.0000
+  mAP:       0.2780
+  AUC:       0.5158
+2025-05-03 05:22:54,316 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_506 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_AdamW_lr_0.01_id_506/final_results.json
+2025-05-03 05:22:54,318 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_506 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_AdamW_lr_0.01_id_506/final_results.json

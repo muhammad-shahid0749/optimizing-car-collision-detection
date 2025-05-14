@@ -1,0 +1,26 @@
+2025-05-01 03:04:46,316 - training.model_ResNet101_opt_SGD_lr_0.001_id_129 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.001_id_129
+2025-05-01 03:04:46,316 - training.model_ResNet101_opt_SGD_lr_0.001_id_129 - INFO - Config: {
+  "id": 129,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:04:46,744 - training.model_ResNet101_opt_SGD_lr_0.001_id_129 - INFO - Starting model evaluation
+2025-05-01 03:04:56,771 - training.model_ResNet101_opt_SGD_lr_0.001_id_129 - INFO - Evaluation metrics:
+  Accuracy:  0.9653
+  Precision: 0.9313
+  Recall:    0.9476
+  F1 Score:  0.9393
+  IoU:       0.8856
+  mAP:       0.9812
+  AUC:       0.9937
+2025-05-01 03:04:56,776 - training.model_ResNet101_opt_SGD_lr_0.001_id_129 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_SGD_lr_0.001_id_129/final_results.json
+2025-05-01 03:04:56,777 - training.model_ResNet101_opt_SGD_lr_0.001_id_129 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_SGD_lr_0.001_id_129/final_results.json

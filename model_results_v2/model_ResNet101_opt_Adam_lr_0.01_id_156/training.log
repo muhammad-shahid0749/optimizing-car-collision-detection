@@ -1,0 +1,26 @@
+2025-05-01 03:42:24,450 - training.model_ResNet101_opt_Adam_lr_0.01_id_156 - INFO - Initialized training manager for model_ResNet101_opt_Adam_lr_0.01_id_156
+2025-05-01 03:42:24,450 - training.model_ResNet101_opt_Adam_lr_0.01_id_156 - INFO - Config: {
+  "id": 156,
+  "model_name": "ResNet101",
+  "optimizer": "Adam",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:42:24,858 - training.model_ResNet101_opt_Adam_lr_0.01_id_156 - INFO - Starting model evaluation
+2025-05-01 03:42:34,295 - training.model_ResNet101_opt_Adam_lr_0.01_id_156 - INFO - Evaluation metrics:
+  Accuracy:  0.8513
+  Precision: 0.7237
+  Recall:    0.7692
+  F1 Score:  0.7458
+  IoU:       0.5946
+  mAP:       0.8313
+  AUC:       0.9066
+2025-05-01 03:42:34,297 - training.model_ResNet101_opt_Adam_lr_0.01_id_156 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_Adam_lr_0.01_id_156/final_results.json
+2025-05-01 03:42:34,298 - training.model_ResNet101_opt_Adam_lr_0.01_id_156 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_Adam_lr_0.01_id_156/final_results.json

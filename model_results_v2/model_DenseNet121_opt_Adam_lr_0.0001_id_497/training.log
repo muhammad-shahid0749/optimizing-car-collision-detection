@@ -1,0 +1,28 @@
+2025-05-03 05:06:44,994 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_497 - INFO - Initialized training manager for model_DenseNet121_opt_Adam_lr_0.0001_id_497
+2025-05-03 05:06:44,994 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_497 - INFO - Config: {
+  "id": 497,
+  "model_name": "DenseNet121",
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 05:06:45,467 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_497 - INFO - Starting model evaluation
+2025-05-03 05:06:57,554 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_497 - INFO - Evaluation metrics:
+  Accuracy:  0.9643
+  Precision: 0.9281
+  Recall:    0.9476
+  F1 Score:  0.9377
+  IoU:       0.8827
+  mAP:       0.9777
+  AUC:       0.9880
+2025-05-03 05:06:57,556 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_497 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_Adam_lr_0.0001_id_497/final_results.json
+2025-05-03 05:06:57,557 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_497 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_Adam_lr_0.0001_id_497/final_results.json

@@ -1,0 +1,41 @@
+2025-05-01 12:15:20,987 - training.model_DenseNet121_opt_SGD_lr_0.0001_id_457 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001_id_457
+2025-05-01 12:15:20,987 - training.model_DenseNet121_opt_SGD_lr_0.0001_id_457 - INFO - Config: {
+  "id": 457,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 03:47:46,319 - training.model_DenseNet121_opt_SGD_lr_0.0001_id_457 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.0001_id_457
+2025-05-03 03:47:46,319 - training.model_DenseNet121_opt_SGD_lr_0.0001_id_457 - INFO - Config: {
+  "id": 457,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:02:39,439 - training.model_DenseNet121_opt_SGD_lr_0.0001_id_457 - INFO - Starting model evaluation
+2025-05-03 04:02:51,719 - training.model_DenseNet121_opt_SGD_lr_0.0001_id_457 - INFO - Evaluation metrics:
+  Accuracy:  0.9237
+  Precision: 0.8519
+  Recall:    0.8846
+  F1 Score:  0.8679
+  IoU:       0.7667
+  mAP:       0.9496
+  AUC:       0.9706
+2025-05-03 04:02:51,720 - training.model_DenseNet121_opt_SGD_lr_0.0001_id_457 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001_id_457/final_results.json
+2025-05-03 04:02:51,722 - training.model_DenseNet121_opt_SGD_lr_0.0001_id_457 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_SGD_lr_0.0001_id_457/final_results.json

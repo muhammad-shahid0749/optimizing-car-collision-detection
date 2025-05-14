@@ -1,0 +1,26 @@
+2025-05-03 09:32:13,726 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_660 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.01_id_660
+2025-05-03 09:32:13,726 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_660 - INFO - Config: {
+  "id": 660,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 09:32:14,829 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_660 - INFO - Starting model evaluation
+2025-05-03 09:32:26,535 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_660 - INFO - Evaluation metrics:
+  Accuracy:  0.9544
+  Precision: 0.9054
+  Recall:    0.9371
+  F1 Score:  0.9210
+  IoU:       0.8535
+  mAP:       0.9645
+  AUC:       0.9829
+2025-05-03 09:32:26,537 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_660 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_SGD_lr_0.01_id_660/final_results.json
+2025-05-03 09:32:26,538 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_660 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_SGD_lr_0.01_id_660/final_results.json

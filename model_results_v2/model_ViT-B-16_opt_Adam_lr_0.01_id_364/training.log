@@ -1,0 +1,41 @@
+2025-05-01 11:28:37,288 - training.model_ViT-B-16_opt_Adam_lr_0.01_id_364 - INFO - Initialized training manager for model_ViT-B-16_opt_Adam_lr_0.01_id_364
+2025-05-01 11:28:37,288 - training.model_ViT-B-16_opt_Adam_lr_0.01_id_364 - INFO - Config: {
+  "id": 364,
+  "model_name": "ViT-B-16",
+  "optimizer": "Adam",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 00:39:04,947 - training.model_ViT-B-16_opt_Adam_lr_0.01_id_364 - INFO - Initialized training manager for model_ViT-B-16_opt_Adam_lr_0.01_id_364
+2025-05-03 00:39:04,948 - training.model_ViT-B-16_opt_Adam_lr_0.01_id_364 - INFO - Config: {
+  "id": 364,
+  "model_name": "ViT-B-16",
+  "optimizer": "Adam",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 00:39:06,394 - training.model_ViT-B-16_opt_Adam_lr_0.01_id_364 - INFO - Starting model evaluation
+2025-05-03 00:40:09,250 - training.model_ViT-B-16_opt_Adam_lr_0.01_id_364 - INFO - Evaluation metrics:
+  Accuracy:  0.7076
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+  IoU:       0.0000
+  mAP:       0.2652
+  AUC:       0.4594
+2025-05-03 00:40:09,252 - training.model_ViT-B-16_opt_Adam_lr_0.01_id_364 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_Adam_lr_0.01_id_364/final_results.json
+2025-05-03 00:40:09,255 - training.model_ViT-B-16_opt_Adam_lr_0.01_id_364 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_Adam_lr_0.01_id_364/final_results.json

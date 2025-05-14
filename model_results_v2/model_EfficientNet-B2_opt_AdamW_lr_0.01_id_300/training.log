@@ -1,0 +1,26 @@
+2025-05-01 09:44:56,975 - training.model_EfficientNet-B2_opt_AdamW_lr_0.01_id_300 - INFO - Initialized training manager for model_EfficientNet-B2_opt_AdamW_lr_0.01_id_300
+2025-05-01 09:44:56,975 - training.model_EfficientNet-B2_opt_AdamW_lr_0.01_id_300 - INFO - Config: {
+  "id": 300,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 09:44:58,133 - training.model_EfficientNet-B2_opt_AdamW_lr_0.01_id_300 - INFO - Starting model evaluation
+2025-05-01 09:45:08,922 - training.model_EfficientNet-B2_opt_AdamW_lr_0.01_id_300 - INFO - Evaluation metrics:
+  Accuracy:  0.6244
+  Precision: 0.3969
+  Recall:    0.6259
+  F1 Score:  0.4858
+  IoU:       0.3208
+  mAP:       0.4137
+  AUC:       0.6424
+2025-05-01 09:45:08,923 - training.model_EfficientNet-B2_opt_AdamW_lr_0.01_id_300 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_AdamW_lr_0.01_id_300/final_results.json
+2025-05-01 09:45:08,925 - training.model_EfficientNet-B2_opt_AdamW_lr_0.01_id_300 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_AdamW_lr_0.01_id_300/final_results.json

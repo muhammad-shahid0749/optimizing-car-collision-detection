@@ -1,0 +1,28 @@
+2025-05-03 09:30:43,038 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_653 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.01_id_653
+2025-05-03 09:30:43,038 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_653 - INFO - Config: {
+  "id": 653,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 09:30:44,257 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_653 - INFO - Starting model evaluation
+2025-05-03 09:30:55,983 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_653 - INFO - Evaluation metrics:
+  Accuracy:  0.9495
+  Precision: 0.8983
+  Recall:    0.9266
+  F1 Score:  0.9122
+  IoU:       0.8386
+  mAP:       0.9618
+  AUC:       0.9814
+2025-05-03 09:30:55,985 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_653 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_SGD_lr_0.01_id_653/final_results.json
+2025-05-03 09:30:55,986 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_653 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_SGD_lr_0.01_id_653/final_results.json

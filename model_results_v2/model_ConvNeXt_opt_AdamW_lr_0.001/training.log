@@ -1,0 +1,1545 @@
+2025-05-03 12:46:29,269 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 12:46:29,269 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 733,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 12:46:29,269 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - No checkpoint found, starting fresh training
+2025-05-03 12:46:29,270 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 1/20
+2025-05-03 12:47:15,839 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 0
+2025-05-03 12:48:11,362 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation accuracy improved from 0.0000 to 0.4957
+2025-05-03 12:48:11,534 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 1 completed in 102.26s - Train Loss: 0.7049, Train Acc: 0.5030, Val Loss: 0.6959, Val Acc: 0.4957
+2025-05-03 12:48:12,332 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 0
+2025-05-03 12:48:12,333 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 2/20
+2025-05-03 12:48:59,304 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 1
+2025-05-03 12:49:54,407 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from inf to 0.6936
+2025-05-03 12:49:54,691 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 2 completed in 102.36s - Train Loss: 0.6950, Train Acc: 0.4822, Val Loss: 0.6936, Val Acc: 0.4957
+2025-05-03 12:49:55,515 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 1
+2025-05-03 12:49:55,515 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 3/20
+2025-05-03 12:50:41,697 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 2
+2025-05-03 12:51:37,534 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 3 completed in 102.02s - Train Loss: 0.6940, Train Acc: 0.5002, Val Loss: 0.6947, Val Acc: 0.4957
+2025-05-03 12:51:38,321 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 2
+2025-05-03 12:51:38,321 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 4/20
+2025-05-03 12:52:24,766 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 3
+2025-05-03 12:53:21,010 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation accuracy improved from 0.4957 to 0.5043
+2025-05-03 12:53:21,270 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 4 completed in 102.95s - Train Loss: 0.6947, Train Acc: 0.4936, Val Loss: 0.6932, Val Acc: 0.5043
+2025-05-03 12:53:22,041 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 3
+2025-05-03 12:53:22,041 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 5/20
+2025-05-03 12:54:08,750 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 4
+2025-05-03 12:55:04,382 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.6936 to 0.6934
+2025-05-03 12:55:04,674 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 5 completed in 102.63s - Train Loss: 0.6941, Train Acc: 0.4981, Val Loss: 0.6934, Val Acc: 0.4957
+2025-05-03 12:55:05,505 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 4
+2025-05-03 12:55:05,505 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 6/20
+2025-05-03 12:55:53,014 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 5
+2025-05-03 12:56:47,901 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.6934 to 0.6933
+2025-05-03 12:56:48,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 6 completed in 102.66s - Train Loss: 0.6933, Train Acc: 0.5066, Val Loss: 0.6933, Val Acc: 0.4957
+2025-05-03 12:56:48,948 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 5
+2025-05-03 12:56:48,948 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 7/20
+2025-05-03 12:57:36,259 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 6
+2025-05-03 12:58:30,573 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 7 completed in 101.63s - Train Loss: 0.6943, Train Acc: 0.4921, Val Loss: 0.6934, Val Acc: 0.5043
+2025-05-03 12:58:31,401 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 6
+2025-05-03 12:58:31,401 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 8/20
+2025-05-03 12:59:18,494 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 7
+2025-05-03 13:00:12,504 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.6933 to 0.6932
+2025-05-03 13:00:12,782 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 8 completed in 101.38s - Train Loss: 0.6942, Train Acc: 0.4833, Val Loss: 0.6932, Val Acc: 0.4957
+2025-05-03 13:00:13,631 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 7
+2025-05-03 13:00:13,631 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 9/20
+2025-05-03 13:00:59,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 8
+2025-05-03 13:01:54,989 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.6932 to 0.6931
+2025-05-03 13:01:55,275 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 9 completed in 101.64s - Train Loss: 0.6936, Train Acc: 0.5004, Val Loss: 0.6931, Val Acc: 0.5043
+2025-05-03 13:01:56,101 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 8
+2025-05-03 13:01:56,102 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 10/20
+2025-05-03 13:02:42,323 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 9
+2025-05-03 13:03:36,998 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.6931 to 0.6931
+2025-05-03 13:03:37,282 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 10 completed in 101.18s - Train Loss: 0.6937, Train Acc: 0.5066, Val Loss: 0.6931, Val Acc: 0.5043
+2025-05-03 13:03:38,114 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 9
+2025-05-03 13:03:38,114 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 11/20
+2025-05-03 13:04:23,115 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 10
+2025-05-03 13:05:17,486 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 11 completed in 99.37s - Train Loss: 0.6933, Train Acc: 0.4858, Val Loss: 0.6932, Val Acc: 0.4957
+2025-05-03 13:05:18,299 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 10
+2025-05-03 13:05:18,299 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 12/20
+2025-05-03 13:06:05,227 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 11
+2025-05-03 13:07:00,089 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 12 completed in 101.79s - Train Loss: 0.6932, Train Acc: 0.5054, Val Loss: 0.6932, Val Acc: 0.4957
+2025-05-03 13:07:00,873 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 11
+2025-05-03 13:07:00,874 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 13/20
+2025-05-03 13:07:47,010 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 12
+2025-05-03 13:08:42,146 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 13 completed in 101.27s - Train Loss: 0.6932, Train Acc: 0.4981, Val Loss: 0.6932, Val Acc: 0.4957
+2025-05-03 13:08:42,978 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 12
+2025-05-03 13:08:42,978 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 14/20
+2025-05-03 13:09:29,804 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 13
+2025-05-03 13:10:23,498 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 14 completed in 100.52s - Train Loss: 0.6931, Train Acc: 0.5009, Val Loss: 0.6932, Val Acc: 0.4957
+2025-05-03 13:10:24,339 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 13
+2025-05-03 13:10:24,339 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 15/20
+2025-05-03 13:11:11,072 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 14
+2025-05-03 13:12:03,663 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 15 completed in 99.32s - Train Loss: 0.6932, Train Acc: 0.4957, Val Loss: 0.6932, Val Acc: 0.4957
+2025-05-03 13:12:04,511 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 14
+2025-05-03 13:12:04,511 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Early stopping triggered after 15 epochs
+2025-05-03 13:12:04,511 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 1534.39 seconds
+2025-05-03 13:12:17,266 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:12:17,266 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:12:17,266 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 734,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:12:17,266 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 734,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:12:17,266 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:12:17,266 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:12:17,695 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 15, best validation accuracy: 0.5043
+2025-05-03 13:12:17,695 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 15, best validation accuracy: 0.5043
+2025-05-03 13:12:17,696 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 16/20
+2025-05-03 13:12:17,696 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 16/20
+2025-05-03 13:13:04,058 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 15
+2025-05-03 13:13:04,058 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 15
+2025-05-03 13:13:57,679 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.6931 to 0.0433
+2025-05-03 13:13:57,679 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.6931 to 0.0433
+2025-05-03 13:13:57,983 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 16 completed in 100.29s - Train Loss: 0.0433, Train Acc: 0.4953, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:13:57,983 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 16 completed in 100.29s - Train Loss: 0.0433, Train Acc: 0.4953, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:13:58,821 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 15
+2025-05-03 13:13:58,821 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 15
+2025-05-03 13:13:58,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 17/20
+2025-05-03 13:13:58,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 17/20
+2025-05-03 13:14:45,710 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 16
+2025-05-03 13:14:45,710 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 16
+2025-05-03 13:15:40,195 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.0433 to 0.0433
+2025-05-03 13:15:40,195 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.0433 to 0.0433
+2025-05-03 13:15:40,422 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 17 completed in 101.60s - Train Loss: 0.0433, Train Acc: 0.4938, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:15:40,422 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 17 completed in 101.60s - Train Loss: 0.0433, Train Acc: 0.4938, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:15:41,215 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 16
+2025-05-03 13:15:41,215 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 16
+2025-05-03 13:15:41,216 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 18/20
+2025-05-03 13:15:41,216 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 18/20
+2025-05-03 13:16:26,785 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 17
+2025-05-03 13:16:26,785 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 17
+2025-05-03 13:17:21,303 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.0433 to 0.0433
+2025-05-03 13:17:21,303 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.0433 to 0.0433
+2025-05-03 13:17:21,597 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 18 completed in 100.38s - Train Loss: 0.0433, Train Acc: 0.4955, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:17:21,597 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 18 completed in 100.38s - Train Loss: 0.0433, Train Acc: 0.4955, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:17:22,437 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 17
+2025-05-03 13:17:22,437 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 17
+2025-05-03 13:17:22,438 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 19/20
+2025-05-03 13:17:22,438 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 19/20
+2025-05-03 13:18:07,888 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 18
+2025-05-03 13:18:07,888 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 18
+2025-05-03 13:19:00,964 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 19 completed in 98.53s - Train Loss: 0.0433, Train Acc: 0.5017, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:19:00,964 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 19 completed in 98.53s - Train Loss: 0.0433, Train Acc: 0.5017, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:19:01,771 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 18
+2025-05-03 13:19:01,771 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 18
+2025-05-03 13:19:01,772 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 20/20
+2025-05-03 13:19:01,772 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Starting epoch 20/20
+2025-05-03 13:19:47,598 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 19
+2025-05-03 13:19:47,598 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 19
+2025-05-03 13:20:42,293 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.0433 to 0.0433
+2025-05-03 13:20:42,293 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Validation loss improved from 0.0433 to 0.0433
+2025-05-03 13:20:42,567 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 20 completed in 100.79s - Train Loss: 0.0433, Train Acc: 0.5062, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:20:42,567 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Epoch 20 completed in 100.79s - Train Loss: 0.0433, Train Acc: 0.5062, Val Loss: 0.0433, Val Acc: 0.4957
+2025-05-03 13:20:43,383 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 19
+2025-05-03 13:20:43,383 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Checkpoint saved at epoch 19
+2025-05-03 13:20:43,384 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:20:43,384 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:20:56,529 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:20:56,529 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:20:56,529 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:20:56,529 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 735,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:20:56,529 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 735,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:20:56,529 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 735,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:20:56,529 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:20:56,529 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:20:56,529 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:20:57,034 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:20:57,034 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:20:57,034 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:20:57,035 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:20:57,035 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:20:57,035 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 736,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 736,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 736,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 736,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:09,391 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:09,915 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:09,915 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:09,915 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:09,915 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:09,916 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:09,916 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:09,916 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:09,916 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 737,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 737,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 737,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 737,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 737,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:23,822 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:24,342 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:24,342 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:24,342 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:24,342 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:24,342 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:24,343 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:24,343 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:24,343 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:24,343 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:24,343 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 738,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 738,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 738,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 738,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 738,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 738,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:36,648 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:37,231 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:37,231 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:37,231 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:37,231 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:37,231 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:37,231 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:37,232 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:37,232 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:37,232 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:37,232 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:37,232 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:37,232 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 739,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 739,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 739,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 739,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 739,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 739,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 739,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:49,968 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:21:50,483 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:50,483 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:50,483 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:50,483 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:50,483 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:50,483 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:50,483 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:21:50,485 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:50,485 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:50,485 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:50,485 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:50,485 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:50,485 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:21:50,485 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 740,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 740,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 740,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 740,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 740,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 740,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 740,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:03,389 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 740,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:03,390 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:03,390 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:03,390 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:03,390 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:03,390 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:03,390 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:03,390 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:03,390 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:03,912 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:03,912 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:03,912 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:03,912 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:03,912 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:03,912 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:03,912 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:03,912 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:03,914 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:03,914 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:03,914 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:03,914 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:03,914 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:03,914 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:03,914 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:03,914 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:16,206 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:16,206 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:16,206 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:16,206 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:16,206 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:16,206 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:16,206 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:16,206 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:16,206 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 741,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 741,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 741,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 741,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 741,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 741,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 741,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 741,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 741,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:16,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:16,704 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:16,704 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:16,704 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:16,704 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:16,704 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:16,704 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:16,704 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:16,704 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:16,704 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:16,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:16,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:16,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:16,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:16,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:16,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:16,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:16,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:16,706 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 742,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,100 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,590 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:29,592 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 743,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:41,646 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,163 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:42,164 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,714 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Config: {
+  "id": 744,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:54,715 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001/checkpoint.pt
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,207 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.5043
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds
+2025-05-03 13:22:55,208 - training.model_ConvNeXt_opt_AdamW_lr_0.001 - INFO - Training completed after 2039.26 seconds

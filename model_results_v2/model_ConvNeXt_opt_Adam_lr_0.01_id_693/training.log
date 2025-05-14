@@ -1,0 +1,26 @@
+2025-05-03 11:12:06,314 - training.model_ConvNeXt_opt_Adam_lr_0.01_id_693 - INFO - Initialized training manager for model_ConvNeXt_opt_Adam_lr_0.01_id_693
+2025-05-03 11:12:06,314 - training.model_ConvNeXt_opt_Adam_lr_0.01_id_693 - INFO - Config: {
+  "id": 693,
+  "model_name": "ConvNeXt",
+  "optimizer": "Adam",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 11:12:07,728 - training.model_ConvNeXt_opt_Adam_lr_0.01_id_693 - INFO - Starting model evaluation
+2025-05-03 11:12:19,381 - training.model_ConvNeXt_opt_Adam_lr_0.01_id_693 - INFO - Evaluation metrics:
+  Accuracy:  0.7166
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+  IoU:       0.0000
+  mAP:       0.3054
+  AUC:       0.5674
+2025-05-03 11:12:19,385 - training.model_ConvNeXt_opt_Adam_lr_0.01_id_693 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_Adam_lr_0.01_id_693/final_results.json
+2025-05-03 11:12:19,386 - training.model_ConvNeXt_opt_Adam_lr_0.01_id_693 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_Adam_lr_0.01_id_693/final_results.json

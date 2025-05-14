@@ -1,0 +1,27 @@
+2025-05-01 02:45:24,271 - training.model_ResNet101_opt_SGD_lr_0.01_id_111 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.01_id_111
+2025-05-01 02:45:24,271 - training.model_ResNet101_opt_SGD_lr_0.01_id_111 - INFO - Config: {
+  "id": 111,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 02:45:24,638 - training.model_ResNet101_opt_SGD_lr_0.01_id_111 - INFO - Starting model evaluation
+2025-05-01 02:45:34,318 - training.model_ResNet101_opt_SGD_lr_0.01_id_111 - INFO - Evaluation metrics:
+  Accuracy:  0.9713
+  Precision: 0.9356
+  Recall:    0.9650
+  F1 Score:  0.9501
+  IoU:       0.9049
+  mAP:       0.9792
+  AUC:       0.9927
+2025-05-01 02:45:34,320 - training.model_ResNet101_opt_SGD_lr_0.01_id_111 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_SGD_lr_0.01_id_111/final_results.json
+2025-05-01 02:45:34,321 - training.model_ResNet101_opt_SGD_lr_0.01_id_111 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_SGD_lr_0.01_id_111/final_results.json

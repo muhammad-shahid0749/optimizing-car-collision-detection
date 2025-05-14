@@ -1,0 +1,27 @@
+2025-05-01 08:38:56,324 - training.model_EfficientNet-B2_opt_Adam_lr_0.01_id_258 - INFO - Initialized training manager for model_EfficientNet-B2_opt_Adam_lr_0.01_id_258
+2025-05-01 08:38:56,324 - training.model_EfficientNet-B2_opt_Adam_lr_0.01_id_258 - INFO - Config: {
+  "id": 258,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "Adam",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:38:57,402 - training.model_EfficientNet-B2_opt_Adam_lr_0.01_id_258 - INFO - Starting model evaluation
+2025-05-01 08:39:08,647 - training.model_EfficientNet-B2_opt_Adam_lr_0.01_id_258 - INFO - Evaluation metrics:
+  Accuracy:  0.8315
+  Precision: 0.6768
+  Recall:    0.7762
+  F1 Score:  0.7231
+  IoU:       0.5663
+  mAP:       0.8232
+  AUC:       0.8992
+2025-05-01 08:39:08,648 - training.model_EfficientNet-B2_opt_Adam_lr_0.01_id_258 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_Adam_lr_0.01_id_258/final_results.json
+2025-05-01 08:39:08,650 - training.model_EfficientNet-B2_opt_Adam_lr_0.01_id_258 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_Adam_lr_0.01_id_258/final_results.json

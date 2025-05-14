@@ -1,0 +1,26 @@
+2025-05-01 11:52:02,688 - training.model_DenseNet121_opt_SGD_lr_0.01_id_444 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.01_id_444
+2025-05-01 11:52:02,688 - training.model_DenseNet121_opt_SGD_lr_0.01_id_444 - INFO - Config: {
+  "id": 444,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 11:52:03,825 - training.model_DenseNet121_opt_SGD_lr_0.01_id_444 - INFO - Starting model evaluation
+2025-05-01 11:52:15,960 - training.model_DenseNet121_opt_SGD_lr_0.01_id_444 - INFO - Evaluation metrics:
+  Accuracy:  0.9663
+  Precision: 0.9468
+  Recall:    0.9336
+  F1 Score:  0.9401
+  IoU:       0.8870
+  mAP:       0.9875
+  AUC:       0.9939
+2025-05-01 11:52:15,962 - training.model_DenseNet121_opt_SGD_lr_0.01_id_444 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_SGD_lr_0.01_id_444/final_results.json
+2025-05-01 11:52:15,963 - training.model_DenseNet121_opt_SGD_lr_0.01_id_444 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_SGD_lr_0.01_id_444/final_results.json

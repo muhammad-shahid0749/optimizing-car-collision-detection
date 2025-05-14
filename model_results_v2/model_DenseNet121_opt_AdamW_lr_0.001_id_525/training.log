@@ -1,0 +1,26 @@
+2025-05-03 05:49:59,869 - training.model_DenseNet121_opt_AdamW_lr_0.001_id_525 - INFO - Initialized training manager for model_DenseNet121_opt_AdamW_lr_0.001_id_525
+2025-05-03 05:49:59,869 - training.model_DenseNet121_opt_AdamW_lr_0.001_id_525 - INFO - Config: {
+  "id": 525,
+  "model_name": "DenseNet121",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 05:50:00,182 - training.model_DenseNet121_opt_AdamW_lr_0.001_id_525 - INFO - Starting model evaluation
+2025-05-03 05:50:12,062 - training.model_DenseNet121_opt_AdamW_lr_0.001_id_525 - INFO - Evaluation metrics:
+  Accuracy:  0.9296
+  Precision: 0.8644
+  Recall:    0.8916
+  F1 Score:  0.8778
+  IoU:       0.7822
+  mAP:       0.9347
+  AUC:       0.9644
+2025-05-03 05:50:12,063 - training.model_DenseNet121_opt_AdamW_lr_0.001_id_525 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_AdamW_lr_0.001_id_525/final_results.json
+2025-05-03 05:50:12,065 - training.model_DenseNet121_opt_AdamW_lr_0.001_id_525 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_AdamW_lr_0.001_id_525/final_results.json

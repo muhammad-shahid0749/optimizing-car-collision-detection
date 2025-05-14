@@ -1,0 +1,28 @@
+2025-05-01 00:39:22,440 - training.model_ResNet50_opt_SGD_lr_0.0001_id_29 - INFO - Initialized training manager for model_ResNet50_opt_SGD_lr_0.0001_id_29
+2025-05-01 00:39:22,441 - training.model_ResNet50_opt_SGD_lr_0.0001_id_29 - INFO - Config: {
+  "id": 29,
+  "model_name": "ResNet50",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 00:39:22,661 - training.model_ResNet50_opt_SGD_lr_0.0001_id_29 - INFO - Starting model evaluation
+2025-05-01 00:39:31,480 - training.model_ResNet50_opt_SGD_lr_0.0001_id_29 - INFO - Evaluation metrics:
+  Accuracy:  0.8414
+  Precision: 0.7100
+  Recall:    0.7448
+  F1 Score:  0.7270
+  IoU:       0.5710
+  mAP:       0.8461
+  AUC:       0.9076
+2025-05-01 00:39:31,481 - training.model_ResNet50_opt_SGD_lr_0.0001_id_29 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_SGD_lr_0.0001_id_29/final_results.json
+2025-05-01 00:39:31,483 - training.model_ResNet50_opt_SGD_lr_0.0001_id_29 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_SGD_lr_0.0001_id_29/final_results.json

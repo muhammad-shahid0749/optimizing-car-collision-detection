@@ -1,0 +1,25 @@
+2025-05-01 03:23:20,942 - training.model_ResNet101_opt_SGD_lr_0.0001_id_142 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001_id_142
+2025-05-01 03:23:20,942 - training.model_ResNet101_opt_SGD_lr_0.0001_id_142 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,296 - training.model_ResNet101_opt_SGD_lr_0.0001_id_142 - INFO - Starting model evaluation
+2025-05-01 03:23:30,995 - training.model_ResNet101_opt_SGD_lr_0.0001_id_142 - INFO - Evaluation metrics:
+  Accuracy:  0.9405
+  Precision: 0.8742
+  Recall:    0.9231
+  F1 Score:  0.8980
+  IoU:       0.8148
+  mAP:       0.9643
+  AUC:       0.9810
+2025-05-01 03:23:30,997 - training.model_ResNet101_opt_SGD_lr_0.0001_id_142 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_SGD_lr_0.0001_id_142/final_results.json
+2025-05-01 03:23:30,998 - training.model_ResNet101_opt_SGD_lr_0.0001_id_142 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_SGD_lr_0.0001_id_142/final_results.json

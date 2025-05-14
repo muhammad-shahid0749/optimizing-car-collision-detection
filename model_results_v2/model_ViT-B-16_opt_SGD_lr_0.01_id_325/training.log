@@ -1,0 +1,26 @@
+2025-05-01 10:28:22,341 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_325 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01_id_325
+2025-05-01 10:28:22,341 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_325 - INFO - Config: {
+  "id": 325,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:56:43,810 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_325 - INFO - Starting model evaluation
+2025-05-01 10:56:55,891 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_325 - INFO - Evaluation metrics:
+  Accuracy:  0.8880
+  Precision: 0.8289
+  Recall:    0.7622
+  F1 Score:  0.7942
+  IoU:       0.6586
+  mAP:       0.8723
+  AUC:       0.9300
+2025-05-01 10:56:55,893 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_325 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01_id_325/final_results.json
+2025-05-01 10:56:55,895 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_325 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01_id_325/final_results.json

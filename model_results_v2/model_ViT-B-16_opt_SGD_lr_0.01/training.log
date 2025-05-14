@@ -1,0 +1,1528 @@
+2025-05-01 10:28:23,033 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:28:23,033 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 325,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:28:23,033 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - No checkpoint found, starting fresh training
+2025-05-01 10:28:23,033 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 1/20
+2025-05-01 10:28:59,049 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 0
+2025-05-01 10:29:46,637 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.0000 to 0.7093
+2025-05-01 10:29:46,797 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 1 completed in 83.76s - Train Loss: 0.5999, Train Acc: 0.6961, Val Loss: 0.5718, Val Acc: 0.7093
+2025-05-01 10:29:47,285 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 0
+2025-05-01 10:29:47,285 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 2/20
+2025-05-01 10:30:23,672 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 1
+2025-05-01 10:31:09,399 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.7093 to 0.7890
+2025-05-01 10:31:09,662 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 2 completed in 82.38s - Train Loss: 0.5519, Train Acc: 0.7467, Val Loss: 0.5099, Val Acc: 0.7890
+2025-05-01 10:31:10,150 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 1
+2025-05-01 10:31:10,151 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 3/20
+2025-05-01 10:31:46,010 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 2
+2025-05-01 10:32:31,157 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.7890 to 0.8139
+2025-05-01 10:32:31,409 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 3 completed in 81.26s - Train Loss: 0.5049, Train Acc: 0.7967, Val Loss: 0.4869, Val Acc: 0.8139
+2025-05-01 10:32:31,896 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 2
+2025-05-01 10:32:31,897 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 4/20
+2025-05-01 10:33:10,025 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 3
+2025-05-01 10:33:57,899 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation loss improved from inf to 0.5282
+2025-05-01 10:33:58,154 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 4 completed in 86.26s - Train Loss: 0.4809, Train Acc: 0.8245, Val Loss: 0.5282, Val Acc: 0.7702
+2025-05-01 10:33:58,658 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 3
+2025-05-01 10:33:58,658 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 5/20
+2025-05-01 10:34:38,272 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 4
+2025-05-01 10:35:24,515 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.5282 to 0.4951
+2025-05-01 10:35:24,769 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 5 completed in 86.11s - Train Loss: 0.4750, Train Acc: 0.8284, Val Loss: 0.4951, Val Acc: 0.8087
+2025-05-01 10:35:25,285 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 4
+2025-05-01 10:35:25,285 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 6/20
+2025-05-01 10:36:04,248 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 5
+2025-05-01 10:36:50,923 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.8139 to 0.8448
+2025-05-01 10:36:51,176 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 6 completed in 85.89s - Train Loss: 0.4696, Train Acc: 0.8363, Val Loss: 0.4621, Val Acc: 0.8448
+2025-05-01 10:36:51,672 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 5
+2025-05-01 10:36:51,673 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 7/20
+2025-05-01 10:37:30,804 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 6
+2025-05-01 10:38:18,832 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.8448 to 0.8559
+2025-05-01 10:38:19,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 7 completed in 87.42s - Train Loss: 0.4407, Train Acc: 0.8672, Val Loss: 0.4560, Val Acc: 0.8559
+2025-05-01 10:38:19,590 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 6
+2025-05-01 10:38:19,590 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 8/20
+2025-05-01 10:38:55,272 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 7
+2025-05-01 10:39:43,829 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.8559 to 0.8619
+2025-05-01 10:39:44,096 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 8 completed in 84.51s - Train Loss: 0.4377, Train Acc: 0.8700, Val Loss: 0.4482, Val Acc: 0.8619
+2025-05-01 10:39:44,627 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 7
+2025-05-01 10:39:44,627 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 9/20
+2025-05-01 10:40:23,563 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 8
+2025-05-01 10:41:15,029 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.4951 to 0.4660
+2025-05-01 10:41:15,267 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 9 completed in 90.64s - Train Loss: 0.4387, Train Acc: 0.8689, Val Loss: 0.4660, Val Acc: 0.8388
+2025-05-01 10:41:15,771 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 8
+2025-05-01 10:41:15,771 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 10/20
+2025-05-01 10:41:53,678 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 9
+2025-05-01 10:42:40,657 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.8619 to 0.8756
+2025-05-01 10:42:40,907 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 10 completed in 85.14s - Train Loss: 0.4243, Train Acc: 0.8867, Val Loss: 0.4302, Val Acc: 0.8756
+2025-05-01 10:42:41,391 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 9
+2025-05-01 10:42:41,392 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 11/20
+2025-05-01 10:43:19,035 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 10
+2025-05-01 10:44:07,044 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.8756 to 0.8997
+2025-05-01 10:44:07,300 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 11 completed in 85.91s - Train Loss: 0.3967, Train Acc: 0.9136, Val Loss: 0.4097, Val Acc: 0.8997
+2025-05-01 10:44:07,797 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 10
+2025-05-01 10:44:07,797 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 12/20
+2025-05-01 10:44:45,146 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 11
+2025-05-01 10:45:31,866 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.8997 to 0.9125
+2025-05-01 10:45:32,117 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 12 completed in 84.32s - Train Loss: 0.3777, Train Acc: 0.9348, Val Loss: 0.4039, Val Acc: 0.9125
+2025-05-01 10:45:32,619 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 11
+2025-05-01 10:45:32,619 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 13/20
+2025-05-01 10:46:09,350 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 12
+2025-05-01 10:46:56,113 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.4660 to 0.4009
+2025-05-01 10:46:56,386 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 13 completed in 83.77s - Train Loss: 0.3653, Train Acc: 0.9472, Val Loss: 0.4009, Val Acc: 0.9091
+2025-05-01 10:46:56,878 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 12
+2025-05-01 10:46:56,878 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 14/20
+2025-05-01 10:47:34,386 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 13
+2025-05-01 10:48:21,001 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9125 to 0.9160
+2025-05-01 10:48:21,258 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 14 completed in 84.38s - Train Loss: 0.3619, Train Acc: 0.9515, Val Loss: 0.3950, Val Acc: 0.9160
+2025-05-01 10:48:21,773 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 13
+2025-05-01 10:48:21,773 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 15/20
+2025-05-01 10:48:58,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 14
+2025-05-01 10:49:44,905 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9160 to 0.9220
+2025-05-01 10:49:45,169 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 15 completed in 83.40s - Train Loss: 0.3581, Train Acc: 0.9562, Val Loss: 0.3927, Val Acc: 0.9220
+2025-05-01 10:49:45,679 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 14
+2025-05-01 10:49:45,679 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 16/20
+2025-05-01 10:50:22,185 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 15
+2025-05-01 10:51:08,548 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.4009 to 0.3895
+2025-05-01 10:51:08,813 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 16 completed in 83.13s - Train Loss: 0.3563, Train Acc: 0.9577, Val Loss: 0.3895, Val Acc: 0.9202
+2025-05-01 10:51:09,313 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 15
+2025-05-01 10:51:09,313 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 17/20
+2025-05-01 10:51:46,161 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 16
+2025-05-01 10:52:32,280 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9220 to 0.9245
+2025-05-01 10:52:32,534 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 17 completed in 83.22s - Train Loss: 0.3539, Train Acc: 0.9597, Val Loss: 0.3869, Val Acc: 0.9245
+2025-05-01 10:52:33,039 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 16
+2025-05-01 10:52:33,039 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 18/20
+2025-05-01 10:53:09,459 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 17
+2025-05-01 10:53:56,033 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9245 to 0.9314
+2025-05-01 10:53:56,301 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 18 completed in 83.26s - Train Loss: 0.3553, Train Acc: 0.9586, Val Loss: 0.3807, Val Acc: 0.9314
+2025-05-01 10:53:56,819 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 17
+2025-05-01 10:53:56,820 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 19/20
+2025-05-01 10:54:34,223 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 18
+2025-05-01 10:55:19,048 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3895 to 0.3867
+2025-05-01 10:55:19,304 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 19 completed in 82.48s - Train Loss: 0.3528, Train Acc: 0.9610, Val Loss: 0.3867, Val Acc: 0.9271
+2025-05-01 10:55:19,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 18
+2025-05-01 10:55:19,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Starting epoch 20/20
+2025-05-01 10:55:57,165 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 19
+2025-05-01 10:56:43,011 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3867 to 0.3845
+2025-05-01 10:56:43,263 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Epoch 20 completed in 83.46s - Train Loss: 0.3519, Train Acc: 0.9618, Val Loss: 0.3845, Val Acc: 0.9280
+2025-05-01 10:56:43,808 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 19
+2025-05-01 10:56:43,808 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:56:56,519 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:56:56,519 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:56:56,519 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 326,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:56:56,519 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 326,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:56:56,519 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:56:56,519 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:56:56,942 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:56:56,942 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:56:56,943 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:56:56,943 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:09,872 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:09,872 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:09,872 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:09,872 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 327,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:09,872 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 327,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:09,872 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 327,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:09,872 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:09,872 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:09,872 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:10,306 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:10,306 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:10,306 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:10,307 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:10,307 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:10,307 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:23,212 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:23,212 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:23,212 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:23,212 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:23,213 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 328,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:57:23,213 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 328,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:57:23,213 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 328,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:57:23,213 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 328,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:57:23,213 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:23,213 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:23,213 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:23,213 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:23,634 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:23,634 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:23,634 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:23,634 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:23,635 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:23,635 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:23,635 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:23,635 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 329,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 329,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 329,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 329,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:57:36,708 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 329,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:57:36,709 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:36,709 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:36,709 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:36,709 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:36,709 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:37,131 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:37,131 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:37,131 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:37,131 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:37,131 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:37,132 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:37,132 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:37,132 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:37,132 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:37,132 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 330,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 330,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 330,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 330,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 330,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 330,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:50,090 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:57:50,514 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 331,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 331,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 331,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 331,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 331,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 331,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 331,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:03,294 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:03,694 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:03,694 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:03,694 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:03,694 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:03,694 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:03,694 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:03,694 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:03,695 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:03,695 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:03,695 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:03,695 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:03,695 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:03,695 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:03,695 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 332,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 332,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 332,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 332,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 332,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 332,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 332,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 332,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:16,740 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:17,146 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:17,146 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:17,146 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:17,146 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:17,146 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:17,146 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:17,146 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:17,146 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:17,147 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:17,147 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:17,147 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:17,147 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:17,147 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:17,147 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:17,147 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:17,147 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 333,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 333,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 333,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 333,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 333,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 333,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 333,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 333,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:58:29,748 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 333,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:58:29,749 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:29,749 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:29,749 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:29,749 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:29,749 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:29,749 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:29,749 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:29,749 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:29,749 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:30,166 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:30,166 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:30,166 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:30,166 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:30,166 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:30,166 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:30,166 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:30,166 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:30,166 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:30,167 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:30,167 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:30,167 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:30,167 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:30,167 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:30,167 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:30,167 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:30,167 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:30,167 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,961 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 334,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:42,964 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:43,383 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 335,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,387 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,802 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:58:56,803 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 336,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:09,613 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,031 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9314
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds
+2025-05-01 10:59:10,032 - training.model_ViT-B-16_opt_SGD_lr_0.01 - INFO - Training completed after 1700.23 seconds

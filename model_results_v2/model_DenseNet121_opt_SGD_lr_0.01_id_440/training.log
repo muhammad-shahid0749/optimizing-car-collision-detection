@@ -1,0 +1,27 @@
+2025-05-01 11:51:08,595 - training.model_DenseNet121_opt_SGD_lr_0.01_id_440 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.01_id_440
+2025-05-01 11:51:08,595 - training.model_DenseNet121_opt_SGD_lr_0.01_id_440 - INFO - Config: {
+  "id": 440,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 11:51:09,832 - training.model_DenseNet121_opt_SGD_lr_0.01_id_440 - INFO - Starting model evaluation
+2025-05-01 11:51:22,105 - training.model_DenseNet121_opt_SGD_lr_0.01_id_440 - INFO - Evaluation metrics:
+  Accuracy:  0.9713
+  Precision: 0.9573
+  Recall:    0.9406
+  F1 Score:  0.9489
+  IoU:       0.9027
+  mAP:       0.9898
+  AUC:       0.9949
+2025-05-01 11:51:22,107 - training.model_DenseNet121_opt_SGD_lr_0.01_id_440 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_SGD_lr_0.01_id_440/final_results.json
+2025-05-01 11:51:22,108 - training.model_DenseNet121_opt_SGD_lr_0.01_id_440 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_SGD_lr_0.01_id_440/final_results.json

@@ -1,0 +1,39 @@
+2025-05-01 11:28:29,612 - training.model_ViT-B-16_opt_SGD_lr_0.0001_id_358 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.0001_id_358
+2025-05-01 11:28:29,612 - training.model_ViT-B-16_opt_SGD_lr_0.0001_id_358 - INFO - Config: {
+  "id": 358,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 00:15:47,746 - training.model_ViT-B-16_opt_SGD_lr_0.0001_id_358 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.0001_id_358
+2025-05-03 00:15:47,746 - training.model_ViT-B-16_opt_SGD_lr_0.0001_id_358 - INFO - Config: {
+  "id": 358,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 00:15:48,391 - training.model_ViT-B-16_opt_SGD_lr_0.0001_id_358 - INFO - Starting model evaluation
+2025-05-03 00:15:57,934 - training.model_ViT-B-16_opt_SGD_lr_0.0001_id_358 - INFO - Evaluation metrics:
+  Accuracy:  0.9277
+  Precision: 0.8447
+  Recall:    0.9126
+  F1 Score:  0.8773
+  IoU:       0.7814
+  mAP:       0.9436
+  AUC:       0.9718
+2025-05-03 00:15:57,948 - training.model_ViT-B-16_opt_SGD_lr_0.0001_id_358 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_SGD_lr_0.0001_id_358/final_results.json
+2025-05-03 00:15:57,949 - training.model_ViT-B-16_opt_SGD_lr_0.0001_id_358 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_SGD_lr_0.0001_id_358/final_results.json

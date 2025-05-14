@@ -1,0 +1,25 @@
+2025-05-01 00:40:07,657 - training.model_ResNet50_opt_SGD_lr_0.0001_id_34 - INFO - Initialized training manager for model_ResNet50_opt_SGD_lr_0.0001_id_34
+2025-05-01 00:40:07,657 - training.model_ResNet50_opt_SGD_lr_0.0001_id_34 - INFO - Config: {
+  "id": 34,
+  "model_name": "ResNet50",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 00:40:07,899 - training.model_ResNet50_opt_SGD_lr_0.0001_id_34 - INFO - Starting model evaluation
+2025-05-01 00:40:16,546 - training.model_ResNet50_opt_SGD_lr_0.0001_id_34 - INFO - Evaluation metrics:
+  Accuracy:  0.8543
+  Precision: 0.7372
+  Recall:    0.7552
+  F1 Score:  0.7461
+  IoU:       0.5950
+  mAP:       0.8550
+  AUC:       0.9133
+2025-05-01 00:40:16,550 - training.model_ResNet50_opt_SGD_lr_0.0001_id_34 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_SGD_lr_0.0001_id_34/final_results.json
+2025-05-01 00:40:16,552 - training.model_ResNet50_opt_SGD_lr_0.0001_id_34 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_SGD_lr_0.0001_id_34/final_results.json

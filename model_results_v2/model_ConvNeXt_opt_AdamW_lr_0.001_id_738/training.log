@@ -1,0 +1,27 @@
+2025-05-03 13:21:35,986 - training.model_ConvNeXt_opt_AdamW_lr_0.001_id_738 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.001_id_738
+2025-05-03 13:21:35,986 - training.model_ConvNeXt_opt_AdamW_lr_0.001_id_738 - INFO - Config: {
+  "id": 738,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 13:21:37,235 - training.model_ConvNeXt_opt_AdamW_lr_0.001_id_738 - INFO - Starting model evaluation
+2025-05-03 13:21:49,158 - training.model_ConvNeXt_opt_AdamW_lr_0.001_id_738 - INFO - Evaluation metrics:
+  Accuracy:  0.2834
+  Precision: 0.2834
+  Recall:    1.0000
+  F1 Score:  0.4417
+  IoU:       0.2834
+  mAP:       0.2803
+  AUC:       0.4874
+2025-05-03 13:21:49,159 - training.model_ConvNeXt_opt_AdamW_lr_0.001_id_738 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001_id_738/final_results.json
+2025-05-03 13:21:49,161 - training.model_ConvNeXt_opt_AdamW_lr_0.001_id_738 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.001_id_738/final_results.json

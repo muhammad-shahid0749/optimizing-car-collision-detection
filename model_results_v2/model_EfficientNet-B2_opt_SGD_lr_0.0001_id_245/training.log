@@ -1,0 +1,28 @@
+2025-05-01 08:17:27,868 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001_id_245 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001_id_245
+2025-05-01 08:17:27,868 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001_id_245 - INFO - Config: {
+  "id": 245,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:17:28,897 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001_id_245 - INFO - Starting model evaluation
+2025-05-01 08:17:39,924 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001_id_245 - INFO - Evaluation metrics:
+  Accuracy:  0.8216
+  Precision: 0.6596
+  Recall:    0.7657
+  F1 Score:  0.7087
+  IoU:       0.5489
+  mAP:       0.8372
+  AUC:       0.9032
+2025-05-01 08:17:39,925 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001_id_245 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001_id_245/final_results.json
+2025-05-01 08:17:39,927 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001_id_245 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001_id_245/final_results.json

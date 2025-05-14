@@ -1,0 +1,26 @@
+2025-05-03 06:11:51,649 - training.model_MobileNetV3_opt_SGD_lr_0.01_id_541 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01_id_541
+2025-05-03 06:11:51,649 - training.model_MobileNetV3_opt_SGD_lr_0.01_id_541 - INFO - Config: {
+  "id": 541,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:27:57,018 - training.model_MobileNetV3_opt_SGD_lr_0.01_id_541 - INFO - Starting model evaluation
+2025-05-03 06:28:05,810 - training.model_MobileNetV3_opt_SGD_lr_0.01_id_541 - INFO - Evaluation metrics:
+  Accuracy:  0.9663
+  Precision: 0.9406
+  Recall:    0.9406
+  F1 Score:  0.9406
+  IoU:       0.8878
+  mAP:       0.9828
+  AUC:       0.9935
+2025-05-03 06:28:05,811 - training.model_MobileNetV3_opt_SGD_lr_0.01_id_541 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01_id_541/final_results.json
+2025-05-03 06:28:05,813 - training.model_MobileNetV3_opt_SGD_lr_0.01_id_541 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01_id_541/final_results.json

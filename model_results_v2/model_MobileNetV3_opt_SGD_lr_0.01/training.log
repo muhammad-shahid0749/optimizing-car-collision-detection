@@ -1,0 +1,1525 @@
+2025-05-03 06:11:51,970 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:11:51,970 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 541,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:11:51,970 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - No checkpoint found, starting fresh training
+2025-05-03 06:11:51,971 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 1/20
+2025-05-03 06:12:11,528 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 0
+2025-05-03 06:12:39,937 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.0000 to 0.9245
+2025-05-03 06:12:39,953 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 1 completed in 47.98s - Train Loss: 0.4644, Train Acc: 0.8526, Val Loss: 0.3940, Val Acc: 0.9245
+2025-05-03 06:12:39,991 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 0
+2025-05-03 06:12:39,991 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 2/20
+2025-05-03 06:12:59,724 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 1
+2025-05-03 06:13:28,133 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9245 to 0.9485
+2025-05-03 06:13:28,156 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 2 completed in 48.17s - Train Loss: 0.3675, Train Acc: 0.9459, Val Loss: 0.3633, Val Acc: 0.9485
+2025-05-03 06:13:28,191 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 1
+2025-05-03 06:13:28,191 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 3/20
+2025-05-03 06:13:48,286 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 2
+2025-05-03 06:14:16,202 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation loss improved from inf to 0.3688
+2025-05-03 06:14:16,225 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 3 completed in 48.03s - Train Loss: 0.3506, Train Acc: 0.9625, Val Loss: 0.3688, Val Acc: 0.9400
+2025-05-03 06:14:16,262 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 2
+2025-05-03 06:14:16,262 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 4/20
+2025-05-03 06:14:37,065 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 3
+2025-05-03 06:15:05,191 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9485 to 0.9554
+2025-05-03 06:15:05,215 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 4 completed in 48.95s - Train Loss: 0.3446, Train Acc: 0.9691, Val Loss: 0.3575, Val Acc: 0.9554
+2025-05-03 06:15:05,250 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 3
+2025-05-03 06:15:05,251 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 5/20
+2025-05-03 06:15:26,108 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 4
+2025-05-03 06:15:54,262 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3688 to 0.3657
+2025-05-03 06:15:54,286 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 5 completed in 49.03s - Train Loss: 0.3386, Train Acc: 0.9749, Val Loss: 0.3657, Val Acc: 0.9468
+2025-05-03 06:15:54,321 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 4
+2025-05-03 06:15:54,321 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 6/20
+2025-05-03 06:16:15,547 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 5
+2025-05-03 06:16:43,690 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 6 completed in 49.37s - Train Loss: 0.3316, Train Acc: 0.9828, Val Loss: 0.3687, Val Acc: 0.9434
+2025-05-03 06:16:43,730 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 5
+2025-05-03 06:16:43,730 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 7/20
+2025-05-03 06:17:03,929 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 6
+2025-05-03 06:17:32,802 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9554 to 0.9571
+2025-05-03 06:17:32,824 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 7 completed in 49.09s - Train Loss: 0.3271, Train Acc: 0.9863, Val Loss: 0.3578, Val Acc: 0.9571
+2025-05-03 06:17:32,862 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 6
+2025-05-03 06:17:32,863 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 8/20
+2025-05-03 06:17:52,639 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 7
+2025-05-03 06:18:21,041 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3657 to 0.3608
+2025-05-03 06:18:21,062 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 8 completed in 48.20s - Train Loss: 0.3292, Train Acc: 0.9841, Val Loss: 0.3608, Val Acc: 0.9528
+2025-05-03 06:18:21,100 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 7
+2025-05-03 06:18:21,100 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 9/20
+2025-05-03 06:18:41,599 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 8
+2025-05-03 06:19:09,453 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3608 to 0.3562
+2025-05-03 06:19:09,480 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 9 completed in 48.38s - Train Loss: 0.3282, Train Acc: 0.9846, Val Loss: 0.3562, Val Acc: 0.9554
+2025-05-03 06:19:09,516 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 8
+2025-05-03 06:19:09,517 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 10/20
+2025-05-03 06:19:28,089 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 9
+2025-05-03 06:19:57,287 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9571 to 0.9708
+2025-05-03 06:19:57,311 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 10 completed in 47.79s - Train Loss: 0.3264, Train Acc: 0.9871, Val Loss: 0.3428, Val Acc: 0.9708
+2025-05-03 06:19:57,347 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 9
+2025-05-03 06:19:57,347 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 11/20
+2025-05-03 06:20:17,273 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 10
+2025-05-03 06:20:45,851 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9708 to 0.9837
+2025-05-03 06:20:45,874 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 11 completed in 48.53s - Train Loss: 0.3222, Train Acc: 0.9918, Val Loss: 0.3305, Val Acc: 0.9837
+2025-05-03 06:20:45,912 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 10
+2025-05-03 06:20:45,913 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 12/20
+2025-05-03 06:21:06,433 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 11
+2025-05-03 06:21:35,249 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3562 to 0.3312
+2025-05-03 06:21:35,276 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 12 completed in 49.36s - Train Loss: 0.3192, Train Acc: 0.9944, Val Loss: 0.3312, Val Acc: 0.9811
+2025-05-03 06:21:35,311 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 11
+2025-05-03 06:21:35,312 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 13/20
+2025-05-03 06:21:55,796 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 12
+2025-05-03 06:22:23,178 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9837 to 0.9846
+2025-05-03 06:22:23,198 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 13 completed in 47.89s - Train Loss: 0.3190, Train Acc: 0.9940, Val Loss: 0.3276, Val Acc: 0.9846
+2025-05-03 06:22:23,233 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 12
+2025-05-03 06:22:23,233 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 14/20
+2025-05-03 06:22:43,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 13
+2025-05-03 06:23:11,189 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3312 to 0.3294
+2025-05-03 06:23:11,213 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 14 completed in 47.98s - Train Loss: 0.3173, Train Acc: 0.9959, Val Loss: 0.3294, Val Acc: 0.9828
+2025-05-03 06:23:11,249 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 13
+2025-05-03 06:23:11,250 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 15/20
+2025-05-03 06:23:31,271 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 14
+2025-05-03 06:23:58,977 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation accuracy improved from 0.9846 to 0.9863
+2025-05-03 06:23:59,012 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 15 completed in 47.76s - Train Loss: 0.3169, Train Acc: 0.9974, Val Loss: 0.3275, Val Acc: 0.9863
+2025-05-03 06:23:59,051 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 14
+2025-05-03 06:23:59,052 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 16/20
+2025-05-03 06:24:19,185 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 15
+2025-05-03 06:24:46,288 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3294 to 0.3289
+2025-05-03 06:24:46,308 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 16 completed in 47.26s - Train Loss: 0.3174, Train Acc: 0.9966, Val Loss: 0.3289, Val Acc: 0.9828
+2025-05-03 06:24:46,344 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 15
+2025-05-03 06:24:46,344 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 17/20
+2025-05-03 06:25:05,991 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 16
+2025-05-03 06:25:33,441 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3289 to 0.3274
+2025-05-03 06:25:33,464 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 17 completed in 47.12s - Train Loss: 0.3162, Train Acc: 0.9976, Val Loss: 0.3274, Val Acc: 0.9837
+2025-05-03 06:25:33,501 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 16
+2025-05-03 06:25:33,501 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 18/20
+2025-05-03 06:25:53,293 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 17
+2025-05-03 06:26:20,401 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Validation loss improved from 0.3274 to 0.3264
+2025-05-03 06:26:20,424 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 18 completed in 46.92s - Train Loss: 0.3169, Train Acc: 0.9961, Val Loss: 0.3264, Val Acc: 0.9854
+2025-05-03 06:26:20,462 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 17
+2025-05-03 06:26:20,462 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 19/20
+2025-05-03 06:26:39,952 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 18
+2025-05-03 06:27:08,112 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 19 completed in 47.65s - Train Loss: 0.3160, Train Acc: 0.9979, Val Loss: 0.3271, Val Acc: 0.9863
+2025-05-03 06:27:08,156 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 18
+2025-05-03 06:27:08,156 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Starting epoch 20/20
+2025-05-03 06:27:28,656 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 19
+2025-05-03 06:27:56,975 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Epoch 20 completed in 48.82s - Train Loss: 0.3159, Train Acc: 0.9979, Val Loss: 0.3278, Val Acc: 0.9846
+2025-05-03 06:27:57,014 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Checkpoint saved at epoch 19
+2025-05-03 06:27:57,015 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:05,889 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:05,889 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:05,889 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 542,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:28:05,889 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 542,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:28:05,889 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:05,889 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:05,953 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:05,953 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:05,954 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:05,954 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:14,813 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:14,813 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:14,813 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:14,813 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 543,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:28:14,813 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 543,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:28:14,813 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 543,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:28:14,813 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:14,813 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:14,813 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:14,876 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:14,876 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:14,876 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:14,877 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:14,877 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:14,877 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 544,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 544,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 544,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 544,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:24,080 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:24,144 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:24,144 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:24,144 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:24,144 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:24,144 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:24,144 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:24,144 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:24,144 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:33,535 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:33,535 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:33,535 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:33,535 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:33,535 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 545,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 545,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 545,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 545,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 545,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:33,536 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:33,599 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:33,599 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:33,599 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:33,599 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:33,599 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:33,600 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:33,600 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:33,600 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:33,600 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:33,600 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 546,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 546,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 546,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 546,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 546,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 546,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:42,465 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:42,529 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:42,529 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:42,529 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:42,529 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:42,529 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:42,529 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:42,530 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:42,530 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:42,530 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:42,530 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:42,530 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:42,530 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 547,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 547,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 547,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 547,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 547,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 547,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 547,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:51,361 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:28:51,448 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:51,448 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:51,448 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:51,448 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:51,448 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:51,448 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:51,448 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:28:51,449 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:51,449 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:51,449 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:51,449 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:51,449 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:51,449 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:28:51,449 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 548,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 548,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 548,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 548,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 548,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 548,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 548,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 548,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:00,294 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:00,358 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:00,358 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:00,358 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:00,358 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:00,358 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:00,358 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:00,358 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:00,358 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:00,359 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:00,359 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:00,359 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:00,359 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:00,359 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:00,359 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:00,359 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:00,359 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 549,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 549,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 549,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 549,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 549,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 549,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 549,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 549,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 549,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:09,836 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:09,900 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:09,900 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:09,900 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:09,900 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:09,900 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:09,900 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:09,900 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:09,900 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:09,900 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:09,901 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:09,901 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:09,901 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:09,901 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:09,901 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:09,901 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:09,901 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:09,901 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:09,901 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 550,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:18,994 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,174 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:19,175 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,056 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 551,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,057 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,120 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:28,121 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Initialized training manager for model_MobileNetV3_opt_SGD_lr_0.01
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Config: {
+  "id": 552,
+  "model_name": "MobileNetV3",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,507 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Loading checkpoint from model_results_v2/model_MobileNetV3_opt_SGD_lr_0.01/checkpoint.pt
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,571 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Resuming from epoch 20, best validation accuracy: 0.9863
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds
+2025-05-03 06:29:37,572 - training.model_MobileNetV3_opt_SGD_lr_0.01 - INFO - Training completed after 965.00 seconds

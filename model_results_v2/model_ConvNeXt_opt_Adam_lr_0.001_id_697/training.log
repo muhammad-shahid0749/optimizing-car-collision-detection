@@ -1,0 +1,26 @@
+2025-05-03 11:12:57,459 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_697 - INFO - Initialized training manager for model_ConvNeXt_opt_Adam_lr_0.001_id_697
+2025-05-03 11:12:57,459 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_697 - INFO - Config: {
+  "id": 697,
+  "model_name": "ConvNeXt",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 11:26:22,655 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_697 - INFO - Starting model evaluation
+2025-05-03 11:26:34,427 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_697 - INFO - Evaluation metrics:
+  Accuracy:  0.2834
+  Precision: 0.2834
+  Recall:    1.0000
+  F1 Score:  0.4417
+  IoU:       0.2834
+  mAP:       0.2722
+  AUC:       0.5047
+2025-05-03 11:26:34,429 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_697 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_Adam_lr_0.001_id_697/final_results.json
+2025-05-03 11:26:34,433 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_697 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_Adam_lr_0.001_id_697/final_results.json

@@ -1,0 +1,26 @@
+2025-05-03 08:20:02,542 - training.model_MobileNetV3_opt_AdamW_lr_0.001_id_625 - INFO - Initialized training manager for model_MobileNetV3_opt_AdamW_lr_0.001_id_625
+2025-05-03 08:20:02,542 - training.model_MobileNetV3_opt_AdamW_lr_0.001_id_625 - INFO - Config: {
+  "id": 625,
+  "model_name": "MobileNetV3",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 08:36:27,924 - training.model_MobileNetV3_opt_AdamW_lr_0.001_id_625 - INFO - Starting model evaluation
+2025-05-03 08:36:37,285 - training.model_MobileNetV3_opt_AdamW_lr_0.001_id_625 - INFO - Evaluation metrics:
+  Accuracy:  0.9257
+  Precision: 0.8528
+  Recall:    0.8916
+  F1 Score:  0.8718
+  IoU:       0.7727
+  mAP:       0.8681
+  AUC:       0.9519
+2025-05-03 08:36:37,288 - training.model_MobileNetV3_opt_AdamW_lr_0.001_id_625 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_AdamW_lr_0.001_id_625/final_results.json
+2025-05-03 08:36:37,290 - training.model_MobileNetV3_opt_AdamW_lr_0.001_id_625 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_AdamW_lr_0.001_id_625/final_results.json

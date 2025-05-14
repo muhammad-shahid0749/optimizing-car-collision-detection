@@ -1,0 +1,26 @@
+2025-05-01 10:04:59,902 - training.model_EfficientNet-B2_opt_AdamW_lr_0.001_id_304 - INFO - Initialized training manager for model_EfficientNet-B2_opt_AdamW_lr_0.001_id_304
+2025-05-01 10:04:59,902 - training.model_EfficientNet-B2_opt_AdamW_lr_0.001_id_304 - INFO - Config: {
+  "id": 304,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 10:05:01,075 - training.model_EfficientNet-B2_opt_AdamW_lr_0.001_id_304 - INFO - Starting model evaluation
+2025-05-01 10:05:12,087 - training.model_EfficientNet-B2_opt_AdamW_lr_0.001_id_304 - INFO - Evaluation metrics:
+  Accuracy:  0.9475
+  Precision: 0.8820
+  Recall:    0.9406
+  F1 Score:  0.9103
+  IoU:       0.8354
+  mAP:       0.9316
+  AUC:       0.9755
+2025-05-01 10:05:12,089 - training.model_EfficientNet-B2_opt_AdamW_lr_0.001_id_304 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_AdamW_lr_0.001_id_304/final_results.json
+2025-05-01 10:05:12,090 - training.model_EfficientNet-B2_opt_AdamW_lr_0.001_id_304 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_AdamW_lr_0.001_id_304/final_results.json

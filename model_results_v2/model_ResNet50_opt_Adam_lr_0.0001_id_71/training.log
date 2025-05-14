@@ -1,0 +1,27 @@
+2025-05-01 01:35:30,189 - training.model_ResNet50_opt_Adam_lr_0.0001_id_71 - INFO - Initialized training manager for model_ResNet50_opt_Adam_lr_0.0001_id_71
+2025-05-01 01:35:30,189 - training.model_ResNet50_opt_Adam_lr_0.0001_id_71 - INFO - Config: {
+  "id": 71,
+  "model_name": "ResNet50",
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 01:35:30,431 - training.model_ResNet50_opt_Adam_lr_0.0001_id_71 - INFO - Starting model evaluation
+2025-05-01 01:35:38,035 - training.model_ResNet50_opt_Adam_lr_0.0001_id_71 - INFO - Evaluation metrics:
+  Accuracy:  0.9673
+  Precision: 0.9408
+  Recall:    0.9441
+  F1 Score:  0.9424
+  IoU:       0.8911
+  mAP:       0.9463
+  AUC:       0.9853
+2025-05-01 01:35:38,037 - training.model_ResNet50_opt_Adam_lr_0.0001_id_71 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_Adam_lr_0.0001_id_71/final_results.json
+2025-05-01 01:35:38,039 - training.model_ResNet50_opt_Adam_lr_0.0001_id_71 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_Adam_lr_0.0001_id_71/final_results.json

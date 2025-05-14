@@ -1,0 +1,27 @@
+2025-05-03 07:42:36,447 - training.model_MobileNetV3_opt_Adam_lr_0.001_id_596 - INFO - Initialized training manager for model_MobileNetV3_opt_Adam_lr_0.001_id_596
+2025-05-03 07:42:36,447 - training.model_MobileNetV3_opt_Adam_lr_0.001_id_596 - INFO - Config: {
+  "id": 596,
+  "model_name": "MobileNetV3",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 07:42:36,730 - training.model_MobileNetV3_opt_Adam_lr_0.001_id_596 - INFO - Starting model evaluation
+2025-05-03 07:42:46,258 - training.model_MobileNetV3_opt_Adam_lr_0.001_id_596 - INFO - Evaluation metrics:
+  Accuracy:  0.9613
+  Precision: 0.9103
+  Recall:    0.9580
+  F1 Score:  0.9336
+  IoU:       0.8754
+  mAP:       0.9731
+  AUC:       0.9882
+2025-05-03 07:42:46,260 - training.model_MobileNetV3_opt_Adam_lr_0.001_id_596 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_Adam_lr_0.001_id_596/final_results.json
+2025-05-03 07:42:46,261 - training.model_MobileNetV3_opt_Adam_lr_0.001_id_596 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_Adam_lr_0.001_id_596/final_results.json

@@ -1,0 +1,26 @@
+2025-05-01 01:53:12,961 - training.model_ResNet50_opt_AdamW_lr_0.01_id_84 - INFO - Initialized training manager for model_ResNet50_opt_AdamW_lr_0.01_id_84
+2025-05-01 01:53:12,961 - training.model_ResNet50_opt_AdamW_lr_0.01_id_84 - INFO - Config: {
+  "id": 84,
+  "model_name": "ResNet50",
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 01:53:13,207 - training.model_ResNet50_opt_AdamW_lr_0.01_id_84 - INFO - Starting model evaluation
+2025-05-01 01:53:20,705 - training.model_ResNet50_opt_AdamW_lr_0.01_id_84 - INFO - Evaluation metrics:
+  Accuracy:  0.7770
+  Precision: 0.8081
+  Recall:    0.2797
+  F1 Score:  0.4156
+  IoU:       0.2623
+  mAP:       0.4701
+  AUC:       0.6264
+2025-05-01 01:53:20,706 - training.model_ResNet50_opt_AdamW_lr_0.01_id_84 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_AdamW_lr_0.01_id_84/final_results.json
+2025-05-01 01:53:20,708 - training.model_ResNet50_opt_AdamW_lr_0.01_id_84 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_AdamW_lr_0.01_id_84/final_results.json

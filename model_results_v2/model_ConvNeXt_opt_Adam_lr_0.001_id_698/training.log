@@ -1,0 +1,28 @@
+2025-05-03 11:26:34,433 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_698 - INFO - Initialized training manager for model_ConvNeXt_opt_Adam_lr_0.001_id_698
+2025-05-03 11:26:34,433 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_698 - INFO - Config: {
+  "id": 698,
+  "model_name": "ConvNeXt",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 11:36:36,961 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_698 - INFO - Starting model evaluation
+2025-05-03 11:36:48,774 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_698 - INFO - Evaluation metrics:
+  Accuracy:  0.2834
+  Precision: 0.2834
+  Recall:    1.0000
+  F1 Score:  0.4417
+  IoU:       0.2834
+  mAP:       0.2603
+  AUC:       0.4818
+2025-05-03 11:36:48,778 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_698 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_Adam_lr_0.001_id_698/final_results.json
+2025-05-03 11:36:48,779 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_698 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_Adam_lr_0.001_id_698/final_results.json

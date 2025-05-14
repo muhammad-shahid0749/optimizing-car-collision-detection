@@ -1,0 +1,26 @@
+2025-05-01 01:34:35,782 - training.model_ResNet50_opt_Adam_lr_0.0001_id_64 - INFO - Initialized training manager for model_ResNet50_opt_Adam_lr_0.0001_id_64
+2025-05-01 01:34:35,782 - training.model_ResNet50_opt_Adam_lr_0.0001_id_64 - INFO - Config: {
+  "id": 64,
+  "model_name": "ResNet50",
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 01:34:36,035 - training.model_ResNet50_opt_Adam_lr_0.0001_id_64 - INFO - Starting model evaluation
+2025-05-01 01:34:43,709 - training.model_ResNet50_opt_Adam_lr_0.0001_id_64 - INFO - Evaluation metrics:
+  Accuracy:  0.9623
+  Precision: 0.9306
+  Recall:    0.9371
+  F1 Score:  0.9338
+  IoU:       0.8758
+  mAP:       0.9481
+  AUC:       0.9846
+2025-05-01 01:34:43,711 - training.model_ResNet50_opt_Adam_lr_0.0001_id_64 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_Adam_lr_0.0001_id_64/final_results.json
+2025-05-01 01:34:43,713 - training.model_ResNet50_opt_Adam_lr_0.0001_id_64 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_Adam_lr_0.0001_id_64/final_results.json

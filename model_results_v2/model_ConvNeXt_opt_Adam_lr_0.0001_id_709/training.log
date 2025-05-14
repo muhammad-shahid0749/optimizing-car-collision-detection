@@ -1,0 +1,15 @@
+2025-05-03 11:45:25,407 - training.model_ConvNeXt_opt_Adam_lr_0.0001_id_709 - INFO - Initialized training manager for model_ConvNeXt_opt_Adam_lr_0.0001_id_709
+2025-05-03 11:45:25,407 - training.model_ConvNeXt_opt_Adam_lr_0.0001_id_709 - INFO - Config: {
+  "id": 709,
+  "model_name": "ConvNeXt",
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}

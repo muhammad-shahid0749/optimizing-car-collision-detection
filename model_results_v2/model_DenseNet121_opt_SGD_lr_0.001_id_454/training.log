@@ -1,0 +1,25 @@
+2025-05-01 12:14:40,121 - training.model_DenseNet121_opt_SGD_lr_0.001_id_454 - INFO - Initialized training manager for model_DenseNet121_opt_SGD_lr_0.001_id_454
+2025-05-01 12:14:40,121 - training.model_DenseNet121_opt_SGD_lr_0.001_id_454 - INFO - Config: {
+  "id": 454,
+  "model_name": "DenseNet121",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 12:14:40,841 - training.model_DenseNet121_opt_SGD_lr_0.001_id_454 - INFO - Starting model evaluation
+2025-05-01 12:14:53,718 - training.model_DenseNet121_opt_SGD_lr_0.001_id_454 - INFO - Evaluation metrics:
+  Accuracy:  0.9623
+  Precision: 0.9218
+  Recall:    0.9476
+  F1 Score:  0.9345
+  IoU:       0.8770
+  mAP:       0.9840
+  AUC:       0.9905
+2025-05-01 12:14:53,720 - training.model_DenseNet121_opt_SGD_lr_0.001_id_454 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_SGD_lr_0.001_id_454/final_results.json
+2025-05-01 12:14:53,722 - training.model_DenseNet121_opt_SGD_lr_0.001_id_454 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_SGD_lr_0.001_id_454/final_results.json

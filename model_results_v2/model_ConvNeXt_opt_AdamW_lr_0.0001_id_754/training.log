@@ -1,0 +1,25 @@
+2025-05-03 13:58:31,012 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_754 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.0001_id_754
+2025-05-03 13:58:31,012 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_754 - INFO - Config: {
+  "id": 754,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 13:58:32,329 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_754 - INFO - Starting model evaluation
+2025-05-03 13:58:44,013 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_754 - INFO - Evaluation metrics:
+  Accuracy:  0.9564
+  Precision: 0.8980
+  Recall:    0.9545
+  F1 Score:  0.9254
+  IoU:       0.8612
+  mAP:       0.9781
+  AUC:       0.9900
+2025-05-03 13:58:44,014 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_754 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.0001_id_754/final_results.json
+2025-05-03 13:58:44,016 - training.model_ConvNeXt_opt_AdamW_lr_0.0001_id_754 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.0001_id_754/final_results.json

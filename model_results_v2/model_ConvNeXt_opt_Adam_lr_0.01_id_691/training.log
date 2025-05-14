@@ -1,0 +1,14 @@
+2025-05-03 11:12:01,370 - training.model_ConvNeXt_opt_Adam_lr_0.01_id_691 - INFO - Initialized training manager for model_ConvNeXt_opt_Adam_lr_0.01_id_691
+2025-05-03 11:12:01,371 - training.model_ConvNeXt_opt_Adam_lr_0.01_id_691 - INFO - Config: {
+  "id": 691,
+  "model_name": "ConvNeXt",
+  "optimizer": "Adam",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}

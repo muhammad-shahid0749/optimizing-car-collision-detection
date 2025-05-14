@@ -1,0 +1,1526 @@
+2025-05-03 09:32:27,261 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 09:32:27,261 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 661,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 09:32:27,261 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - No checkpoint found, starting fresh training
+2025-05-03 09:32:27,262 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 1/20
+2025-05-03 09:33:12,116 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 0
+2025-05-03 09:34:07,535 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.0000 to 0.8662
+2025-05-03 09:34:07,710 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 1 completed in 100.45s - Train Loss: 0.5605, Train Acc: 0.7610, Val Loss: 0.4589, Val Acc: 0.8662
+2025-05-03 09:34:08,283 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 0
+2025-05-03 09:34:08,283 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 2/20
+2025-05-03 09:34:53,132 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 1
+2025-05-03 09:35:46,690 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.8662 to 0.8954
+2025-05-03 09:35:46,965 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 2 completed in 98.68s - Train Loss: 0.4547, Train Acc: 0.8664, Val Loss: 0.4178, Val Acc: 0.8954
+2025-05-03 09:35:47,485 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 1
+2025-05-03 09:35:47,486 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 3/20
+2025-05-03 09:36:34,207 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 2
+2025-05-03 09:37:26,237 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.8954 to 0.9202
+2025-05-03 09:37:26,522 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 3 completed in 99.04s - Train Loss: 0.4209, Train Acc: 0.8977, Val Loss: 0.4004, Val Acc: 0.9202
+2025-05-03 09:37:27,044 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 2
+2025-05-03 09:37:27,045 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 4/20
+2025-05-03 09:38:11,411 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 3
+2025-05-03 09:39:04,343 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9202 to 0.9262
+2025-05-03 09:39:04,604 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 4 completed in 97.56s - Train Loss: 0.4046, Train Acc: 0.9123, Val Loss: 0.3846, Val Acc: 0.9262
+2025-05-03 09:39:05,109 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 3
+2025-05-03 09:39:05,110 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 5/20
+2025-05-03 09:39:48,928 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 4
+2025-05-03 09:40:41,295 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation loss improved from inf to 0.3884
+2025-05-03 09:40:41,582 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 5 completed in 96.47s - Train Loss: 0.3861, Train Acc: 0.9344, Val Loss: 0.3884, Val Acc: 0.9237
+2025-05-03 09:40:42,083 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 4
+2025-05-03 09:40:42,083 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 6/20
+2025-05-03 09:41:26,764 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 5
+2025-05-03 09:42:19,376 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9262 to 0.9597
+2025-05-03 09:42:19,656 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 6 completed in 97.57s - Train Loss: 0.3787, Train Acc: 0.9369, Val Loss: 0.3564, Val Acc: 0.9597
+2025-05-03 09:42:20,179 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 5
+2025-05-03 09:42:20,179 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 7/20
+2025-05-03 09:43:03,433 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 6
+2025-05-03 09:43:56,852 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation loss improved from 0.3884 to 0.3561
+2025-05-03 09:43:57,124 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 7 completed in 96.94s - Train Loss: 0.3709, Train Acc: 0.9438, Val Loss: 0.3561, Val Acc: 0.9588
+2025-05-03 09:43:57,639 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 6
+2025-05-03 09:43:57,640 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 8/20
+2025-05-03 09:44:40,981 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 7
+2025-05-03 09:45:32,026 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9597 to 0.9623
+2025-05-03 09:45:32,295 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 8 completed in 94.66s - Train Loss: 0.3612, Train Acc: 0.9535, Val Loss: 0.3531, Val Acc: 0.9623
+2025-05-03 09:45:32,799 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 7
+2025-05-03 09:45:32,799 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 9/20
+2025-05-03 09:46:16,971 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 8
+2025-05-03 09:47:09,971 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9623 to 0.9700
+2025-05-03 09:47:10,264 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 9 completed in 97.46s - Train Loss: 0.3588, Train Acc: 0.9556, Val Loss: 0.3472, Val Acc: 0.9700
+2025-05-03 09:47:10,791 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 8
+2025-05-03 09:47:10,791 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 10/20
+2025-05-03 09:47:55,516 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 9
+2025-05-03 09:48:47,690 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9700 to 0.9751
+2025-05-03 09:48:47,957 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 10 completed in 97.17s - Train Loss: 0.3543, Train Acc: 0.9614, Val Loss: 0.3405, Val Acc: 0.9751
+2025-05-03 09:48:48,467 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 9
+2025-05-03 09:48:48,467 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 11/20
+2025-05-03 09:49:32,286 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 10
+2025-05-03 09:50:25,523 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9751 to 0.9768
+2025-05-03 09:50:25,794 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 11 completed in 97.33s - Train Loss: 0.3396, Train Acc: 0.9766, Val Loss: 0.3371, Val Acc: 0.9768
+2025-05-03 09:50:26,302 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 10
+2025-05-03 09:50:26,303 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 12/20
+2025-05-03 09:51:10,773 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 11
+2025-05-03 09:52:02,906 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9768 to 0.9777
+2025-05-03 09:52:03,184 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 12 completed in 96.88s - Train Loss: 0.3358, Train Acc: 0.9798, Val Loss: 0.3361, Val Acc: 0.9777
+2025-05-03 09:52:03,712 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 11
+2025-05-03 09:52:03,712 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 13/20
+2025-05-03 09:52:47,205 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 12
+2025-05-03 09:53:39,206 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9777 to 0.9794
+2025-05-03 09:53:39,481 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 13 completed in 95.77s - Train Loss: 0.3340, Train Acc: 0.9813, Val Loss: 0.3356, Val Acc: 0.9794
+2025-05-03 09:53:40,008 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 12
+2025-05-03 09:53:40,008 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 14/20
+2025-05-03 09:54:25,705 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 13
+2025-05-03 09:55:19,377 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation loss improved from 0.3561 to 0.3366
+2025-05-03 09:55:19,673 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 14 completed in 99.67s - Train Loss: 0.3322, Train Acc: 0.9835, Val Loss: 0.3366, Val Acc: 0.9760
+2025-05-03 09:55:20,199 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 13
+2025-05-03 09:55:20,199 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 15/20
+2025-05-03 09:56:05,245 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 14
+2025-05-03 09:56:58,309 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9794 to 0.9811
+2025-05-03 09:56:58,595 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 15 completed in 98.40s - Train Loss: 0.3316, Train Acc: 0.9843, Val Loss: 0.3321, Val Acc: 0.9811
+2025-05-03 09:56:59,118 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 14
+2025-05-03 09:56:59,119 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 16/20
+2025-05-03 09:57:43,385 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 15
+2025-05-03 09:58:36,307 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation loss improved from 0.3366 to 0.3335
+2025-05-03 09:58:36,590 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 16 completed in 97.47s - Train Loss: 0.3315, Train Acc: 0.9852, Val Loss: 0.3335, Val Acc: 0.9777
+2025-05-03 09:58:37,121 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 15
+2025-05-03 09:58:37,121 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 17/20
+2025-05-03 09:59:22,360 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 16
+2025-05-03 10:00:15,321 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 17 completed in 98.20s - Train Loss: 0.3290, Train Acc: 0.9876, Val Loss: 0.3366, Val Acc: 0.9768
+2025-05-03 10:00:15,888 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 16
+2025-05-03 10:00:15,889 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 18/20
+2025-05-03 10:00:59,635 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 17
+2025-05-03 10:01:51,626 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation accuracy improved from 0.9811 to 0.9820
+2025-05-03 10:01:51,916 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 18 completed in 96.03s - Train Loss: 0.3299, Train Acc: 0.9863, Val Loss: 0.3314, Val Acc: 0.9820
+2025-05-03 10:01:52,445 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 17
+2025-05-03 10:01:52,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 19/20
+2025-05-03 10:02:37,213 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 18
+2025-05-03 10:03:29,323 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 19 completed in 96.88s - Train Loss: 0.3279, Train Acc: 0.9893, Val Loss: 0.3346, Val Acc: 0.9786
+2025-05-03 10:03:29,871 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 18
+2025-05-03 10:03:29,871 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Starting epoch 20/20
+2025-05-03 10:04:14,839 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 19
+2025-05-03 10:05:06,959 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Validation loss improved from 0.3335 to 0.3313
+2025-05-03 10:05:07,225 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Epoch 20 completed in 97.35s - Train Loss: 0.3303, Train Acc: 0.9848, Val Loss: 0.3313, Val Acc: 0.9820
+2025-05-03 10:05:07,742 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Checkpoint saved at epoch 19
+2025-05-03 10:05:07,743 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:19,799 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:19,799 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:19,799 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 662,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:05:19,799 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 662,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:05:19,800 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:19,800 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:20,227 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:20,227 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:20,228 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:20,228 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:32,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:32,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:32,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:32,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 663,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:05:32,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 663,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:05:32,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 663,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:05:32,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:32,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:32,446 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:32,632 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:32,632 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:32,632 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:32,633 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:32,633 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:32,633 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 664,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 664,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 664,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 664,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:44,836 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:45,259 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:45,259 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:45,259 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:45,259 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:45,261 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:45,261 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:45,261 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:45,261 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 665,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 665,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 665,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 665,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 665,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:57,962 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:05:58,149 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:58,149 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:58,149 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:58,149 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:58,149 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:05:58,150 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:58,150 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:58,150 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:58,150 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:05:58,150 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 666,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 666,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 666,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 666,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 666,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:10,291 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 666,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:10,292 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:10,292 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:10,292 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:10,292 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:10,292 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:10,292 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:10,480 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:10,480 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:10,480 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:10,480 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:10,480 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:10,480 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:10,482 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:10,482 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:10,482 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:10,482 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:10,482 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:10,482 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 667,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 667,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 667,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 667,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 667,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 667,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 667,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:22,593 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:22,772 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:22,772 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:22,772 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:22,772 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:22,772 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:22,772 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:22,772 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:22,774 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:22,774 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:22,774 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:22,774 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:22,774 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:22,774 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:22,774 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 668,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 668,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 668,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 668,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 668,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 668,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 668,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 668,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:35,035 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:35,234 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:35,234 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:35,234 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:35,234 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:35,234 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:35,234 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:35,234 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:35,234 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:35,235 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:35,235 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:35,235 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:35,235 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:35,235 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:35,235 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:35,235 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:35,235 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 669,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 669,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 669,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 669,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 669,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 669,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 669,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 669,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:47,727 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 669,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:06:47,728 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:47,728 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:47,728 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:47,728 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:47,728 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:47,728 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:47,728 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:47,728 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:47,728 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:06:47,909 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:47,909 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:47,909 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:47,909 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:47,909 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:47,909 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:47,909 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:47,909 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:47,909 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:06:47,910 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:47,910 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:47,910 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:47,910 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:47,910 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:47,910 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:47,910 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:47,910 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:06:47,910 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,239 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 670,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,240 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,421 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:00,422 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,583 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 671,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,584 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,766 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:12,767 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,061 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.001
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Config: {
+  "id": 672,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,062 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Loading checkpoint from model_results_v2/model_ConvNeXt_opt_SGD_lr_0.001/checkpoint.pt
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,243 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9820
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds
+2025-05-03 10:07:25,244 - training.model_ConvNeXt_opt_SGD_lr_0.001 - INFO - Training completed after 1959.96 seconds

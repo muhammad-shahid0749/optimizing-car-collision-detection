@@ -1,0 +1,17 @@
+2025-05-03 11:38:44,563 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_701 - INFO - Initialized training manager for model_ConvNeXt_opt_Adam_lr_0.001_id_701
+2025-05-03 11:38:44,563 - training.model_ConvNeXt_opt_Adam_lr_0.001_id_701 - INFO - Config: {
+  "id": 701,
+  "model_name": "ConvNeXt",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}

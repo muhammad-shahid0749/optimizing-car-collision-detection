@@ -1,0 +1,1526 @@
+2025-05-01 07:57:49,675 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 07:57:49,678 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 241,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 07:57:49,678 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - No checkpoint found, starting fresh training
+2025-05-01 07:57:49,680 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 1/20
+2025-05-01 07:58:14,778 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 0
+2025-05-01 07:58:47,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.0000 to 0.6304
+2025-05-01 07:58:47,321 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 1 completed in 57.64s - Train Loss: 0.6863, Train Acc: 0.5523, Val Loss: 0.6718, Val Acc: 0.6304
+2025-05-01 07:58:47,392 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 0
+2025-05-01 07:58:47,393 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 2/20
+2025-05-01 07:59:11,573 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 1
+2025-05-01 07:59:45,667 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.6304 to 0.6981
+2025-05-01 07:59:45,711 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 2 completed in 58.32s - Train Loss: 0.6633, Train Acc: 0.6555, Val Loss: 0.6466, Val Acc: 0.6981
+2025-05-01 07:59:45,774 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 1
+2025-05-01 07:59:45,775 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 3/20
+2025-05-01 08:00:09,975 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 2
+2025-05-01 08:00:43,257 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.6981 to 0.7350
+2025-05-01 08:00:43,297 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 3 completed in 57.52s - Train Loss: 0.6430, Train Acc: 0.7048, Val Loss: 0.6270, Val Acc: 0.7350
+2025-05-01 08:00:43,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 2
+2025-05-01 08:00:43,364 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 4/20
+2025-05-01 08:01:08,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 3
+2025-05-01 08:01:41,006 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.7350 to 0.7530
+2025-05-01 08:01:41,044 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 4 completed in 57.68s - Train Loss: 0.6265, Train Acc: 0.7392, Val Loss: 0.6112, Val Acc: 0.7530
+2025-05-01 08:01:41,112 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 3
+2025-05-01 08:01:41,112 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 5/20
+2025-05-01 08:02:05,289 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 4
+2025-05-01 08:02:38,136 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.7530 to 0.7642
+2025-05-01 08:02:38,172 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 5 completed in 57.06s - Train Loss: 0.6099, Train Acc: 0.7570, Val Loss: 0.5975, Val Acc: 0.7642
+2025-05-01 08:02:38,238 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 4
+2025-05-01 08:02:38,239 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 6/20
+2025-05-01 08:03:02,551 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 5
+2025-05-01 08:03:34,178 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.7642 to 0.7710
+2025-05-01 08:03:34,226 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 6 completed in 55.99s - Train Loss: 0.5969, Train Acc: 0.7735, Val Loss: 0.5834, Val Acc: 0.7710
+2025-05-01 08:03:34,293 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 5
+2025-05-01 08:03:34,294 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 7/20
+2025-05-01 08:03:59,045 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 6
+2025-05-01 08:04:31,013 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation loss improved from inf to 0.5722
+2025-05-01 08:04:31,064 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 7 completed in 56.77s - Train Loss: 0.5857, Train Acc: 0.7763, Val Loss: 0.5722, Val Acc: 0.7702
+2025-05-01 08:04:31,129 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 6
+2025-05-01 08:04:31,130 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 8/20
+2025-05-01 08:04:55,182 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 7
+2025-05-01 08:05:26,907 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.7710 to 0.7796
+2025-05-01 08:05:26,948 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 8 completed in 55.82s - Train Loss: 0.5737, Train Acc: 0.7870, Val Loss: 0.5608, Val Acc: 0.7796
+2025-05-01 08:05:27,014 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 7
+2025-05-01 08:05:27,015 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 9/20
+2025-05-01 08:05:51,485 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 8
+2025-05-01 08:06:23,366 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.7796 to 0.7804
+2025-05-01 08:06:23,406 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 9 completed in 56.39s - Train Loss: 0.5632, Train Acc: 0.7898, Val Loss: 0.5527, Val Acc: 0.7804
+2025-05-01 08:06:23,470 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 8
+2025-05-01 08:06:23,471 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 10/20
+2025-05-01 08:06:47,629 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 9
+2025-05-01 08:07:18,969 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.7804 to 0.7899
+2025-05-01 08:07:19,007 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 10 completed in 55.54s - Train Loss: 0.5534, Train Acc: 0.7997, Val Loss: 0.5440, Val Acc: 0.7899
+2025-05-01 08:07:19,072 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 9
+2025-05-01 08:07:19,072 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 11/20
+2025-05-01 08:07:42,575 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 10
+2025-05-01 08:08:14,334 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.7899 to 0.8027
+2025-05-01 08:08:14,373 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 11 completed in 55.30s - Train Loss: 0.5487, Train Acc: 0.8001, Val Loss: 0.5444, Val Acc: 0.8027
+2025-05-01 08:08:14,436 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 10
+2025-05-01 08:08:14,436 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 12/20
+2025-05-01 08:08:37,843 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 11
+2025-05-01 08:09:11,005 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.5722 to 0.5406
+2025-05-01 08:09:11,043 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 12 completed in 56.61s - Train Loss: 0.5475, Train Acc: 0.8069, Val Loss: 0.5406, Val Acc: 0.8019
+2025-05-01 08:09:11,115 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 11
+2025-05-01 08:09:11,116 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 13/20
+2025-05-01 08:09:36,012 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 12
+2025-05-01 08:10:07,960 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.5406 to 0.5405
+2025-05-01 08:10:07,998 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 13 completed in 56.88s - Train Loss: 0.5493, Train Acc: 0.7994, Val Loss: 0.5405, Val Acc: 0.7899
+2025-05-01 08:10:08,066 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 12
+2025-05-01 08:10:08,066 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 14/20
+2025-05-01 08:10:31,471 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 13
+2025-05-01 08:11:02,831 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 14 completed in 54.77s - Train Loss: 0.5473, Train Acc: 0.8052, Val Loss: 0.5425, Val Acc: 0.8010
+2025-05-01 08:11:02,898 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 13
+2025-05-01 08:11:02,899 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 15/20
+2025-05-01 08:11:27,274 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 14
+2025-05-01 08:12:00,390 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8027 to 0.8045
+2025-05-01 08:12:00,429 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 15 completed in 57.53s - Train Loss: 0.5450, Train Acc: 0.8102, Val Loss: 0.5413, Val Acc: 0.8045
+2025-05-01 08:12:00,496 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 14
+2025-05-01 08:12:00,497 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 16/20
+2025-05-01 08:12:24,746 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 15
+2025-05-01 08:12:56,881 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.5405 to 0.5373
+2025-05-01 08:12:56,930 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 16 completed in 56.43s - Train Loss: 0.5439, Train Acc: 0.8078, Val Loss: 0.5373, Val Acc: 0.8027
+2025-05-01 08:12:56,995 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 15
+2025-05-01 08:12:56,995 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 17/20
+2025-05-01 08:13:20,237 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 16
+2025-05-01 08:13:52,953 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 17 completed in 55.96s - Train Loss: 0.5454, Train Acc: 0.8042, Val Loss: 0.5378, Val Acc: 0.8045
+2025-05-01 08:13:53,037 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 16
+2025-05-01 08:13:53,037 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 18/20
+2025-05-01 08:14:17,012 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 17
+2025-05-01 08:14:49,264 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8045 to 0.8087
+2025-05-01 08:14:49,384 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 18 completed in 56.35s - Train Loss: 0.5440, Train Acc: 0.8065, Val Loss: 0.5358, Val Acc: 0.8087
+2025-05-01 08:14:49,449 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 17
+2025-05-01 08:14:49,449 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 19/20
+2025-05-01 08:15:13,874 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 18
+2025-05-01 08:15:45,613 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8087 to 0.8105
+2025-05-01 08:15:45,649 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 19 completed in 56.20s - Train Loss: 0.5413, Train Acc: 0.8097, Val Loss: 0.5355, Val Acc: 0.8105
+2025-05-01 08:15:45,715 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 18
+2025-05-01 08:15:45,715 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Starting epoch 20/20
+2025-05-01 08:16:09,003 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 19
+2025-05-01 08:16:41,497 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.5373 to 0.5363
+2025-05-01 08:16:41,544 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Epoch 20 completed in 55.83s - Train Loss: 0.5422, Train Acc: 0.8057, Val Loss: 0.5363, Val Acc: 0.8002
+2025-05-01 08:16:41,612 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 19
+2025-05-01 08:16:41,613 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:16:53,131 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:16:53,131 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:16:53,131 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 242,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:16:53,131 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 242,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:16:53,131 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:16:53,131 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:16:53,609 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:16:53,609 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:16:53,610 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:16:53,610 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:04,864 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:04,864 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:04,864 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:04,864 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 243,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:17:04,864 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 243,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:17:04,864 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 243,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:17:04,864 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:04,864 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:04,864 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:05,335 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:05,335 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:05,335 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:05,337 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:05,337 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:05,337 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 244,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 244,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 244,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 244,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:16,428 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:17,031 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:17,031 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:17,031 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:17,031 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:17,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:17,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:17,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:17,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 245,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 245,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 245,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 245,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 245,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:28,270 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:28,891 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:28,891 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:28,891 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:28,891 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:28,891 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:28,893 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:28,893 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:28,893 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:28,893 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:28,893 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 246,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 246,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 246,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 246,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 246,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 246,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:40,304 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:40,783 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:40,783 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:40,783 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:40,783 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:40,783 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:40,783 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:40,785 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:40,785 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:40,785 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:40,785 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:40,785 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:40,785 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 247,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 247,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 247,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 247,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 247,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 247,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 247,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:52,372 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:17:52,839 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:52,839 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:52,839 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:52,839 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:52,839 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:52,839 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:52,839 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:17:52,840 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:52,840 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:52,840 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:52,840 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:52,840 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:52,840 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:17:52,840 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 248,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 248,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 248,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 248,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 248,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 248,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 248,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 248,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:04,114 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:04,595 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:04,595 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:04,595 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:04,595 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:04,595 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:04,595 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:04,595 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:04,595 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:04,596 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:04,596 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:04,596 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:04,596 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:04,596 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:04,596 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:04,596 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:04,596 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 249,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 249,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 249,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 249,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 249,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 249,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 249,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 249,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 249,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:15,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:16,413 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:16,413 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:16,413 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:16,413 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:16,413 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:16,413 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:16,413 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:16,413 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:16,413 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:16,414 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:16,414 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:16,414 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:16,414 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:16,414 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:16,414 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:16,414 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:16,414 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:16,414 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,806 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 250,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:27,809 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,280 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:28,281 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 251,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,363 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,970 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:39,971 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.0001
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 252,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:51,443 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,033 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.8105
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds
+2025-05-01 08:18:52,034 - training.model_EfficientNet-B2_opt_SGD_lr_0.0001 - INFO - Training completed after 1131.86 seconds

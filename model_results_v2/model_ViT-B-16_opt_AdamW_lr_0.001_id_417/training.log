@@ -1,0 +1,41 @@
+2025-05-01 11:29:57,170 - training.model_ViT-B-16_opt_AdamW_lr_0.001_id_417 - INFO - Initialized training manager for model_ViT-B-16_opt_AdamW_lr_0.001_id_417
+2025-05-01 11:29:57,170 - training.model_ViT-B-16_opt_AdamW_lr_0.001_id_417 - INFO - Config: {
+  "id": 417,
+  "model_name": "ViT-B-16",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 03:33:46,338 - training.model_ViT-B-16_opt_AdamW_lr_0.001_id_417 - INFO - Initialized training manager for model_ViT-B-16_opt_AdamW_lr_0.001_id_417
+2025-05-03 03:33:46,338 - training.model_ViT-B-16_opt_AdamW_lr_0.001_id_417 - INFO - Config: {
+  "id": 417,
+  "model_name": "ViT-B-16",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 03:33:47,147 - training.model_ViT-B-16_opt_AdamW_lr_0.001_id_417 - INFO - Starting model evaluation
+2025-05-03 03:33:57,851 - training.model_ViT-B-16_opt_AdamW_lr_0.001_id_417 - INFO - Evaluation metrics:
+  Accuracy:  0.2834
+  Precision: 0.2834
+  Recall:    1.0000
+  F1 Score:  0.4417
+  IoU:       0.2834
+  mAP:       0.2834
+  AUC:       0.5000
+2025-05-03 03:33:57,852 - training.model_ViT-B-16_opt_AdamW_lr_0.001_id_417 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_AdamW_lr_0.001_id_417/final_results.json
+2025-05-03 03:33:57,853 - training.model_ViT-B-16_opt_AdamW_lr_0.001_id_417 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_AdamW_lr_0.001_id_417/final_results.json

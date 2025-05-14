@@ -1,0 +1,25 @@
+2025-05-01 02:10:33,994 - training.model_ResNet50_opt_AdamW_lr_0.001_id_94 - INFO - Initialized training manager for model_ResNet50_opt_AdamW_lr_0.001_id_94
+2025-05-01 02:10:33,995 - training.model_ResNet50_opt_AdamW_lr_0.001_id_94 - INFO - Config: {
+  "id": 94,
+  "model_name": "ResNet50",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 02:10:34,313 - training.model_ResNet50_opt_AdamW_lr_0.001_id_94 - INFO - Starting model evaluation
+2025-05-01 02:10:41,641 - training.model_ResNet50_opt_AdamW_lr_0.001_id_94 - INFO - Evaluation metrics:
+  Accuracy:  0.9405
+  Precision: 0.8792
+  Recall:    0.9161
+  F1 Score:  0.8973
+  IoU:       0.8137
+  mAP:       0.9460
+  AUC:       0.9744
+2025-05-01 02:10:41,643 - training.model_ResNet50_opt_AdamW_lr_0.001_id_94 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_AdamW_lr_0.001_id_94/final_results.json
+2025-05-01 02:10:41,644 - training.model_ResNet50_opt_AdamW_lr_0.001_id_94 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_AdamW_lr_0.001_id_94/final_results.json

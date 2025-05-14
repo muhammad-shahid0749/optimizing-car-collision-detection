@@ -1,0 +1,28 @@
+2025-05-01 10:26:44,276 - training.model_EfficientNet-B2_opt_AdamW_lr_0.0001_id_317 - INFO - Initialized training manager for model_EfficientNet-B2_opt_AdamW_lr_0.0001_id_317
+2025-05-01 10:26:44,276 - training.model_EfficientNet-B2_opt_AdamW_lr_0.0001_id_317 - INFO - Config: {
+  "id": 317,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 10:26:45,623 - training.model_EfficientNet-B2_opt_AdamW_lr_0.0001_id_317 - INFO - Starting model evaluation
+2025-05-01 10:26:56,644 - training.model_EfficientNet-B2_opt_AdamW_lr_0.0001_id_317 - INFO - Evaluation metrics:
+  Accuracy:  0.9703
+  Precision: 0.9354
+  Recall:    0.9615
+  F1 Score:  0.9483
+  IoU:       0.9016
+  mAP:       0.9847
+  AUC:       0.9939
+2025-05-01 10:26:56,646 - training.model_EfficientNet-B2_opt_AdamW_lr_0.0001_id_317 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_AdamW_lr_0.0001_id_317/final_results.json
+2025-05-01 10:26:56,647 - training.model_EfficientNet-B2_opt_AdamW_lr_0.0001_id_317 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_AdamW_lr_0.0001_id_317/final_results.json

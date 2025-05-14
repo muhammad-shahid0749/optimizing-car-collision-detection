@@ -1,0 +1,27 @@
+2025-05-01 02:10:17,966 - training.model_ResNet50_opt_AdamW_lr_0.001_id_92 - INFO - Initialized training manager for model_ResNet50_opt_AdamW_lr_0.001_id_92
+2025-05-01 02:10:17,966 - training.model_ResNet50_opt_AdamW_lr_0.001_id_92 - INFO - Config: {
+  "id": 92,
+  "model_name": "ResNet50",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 02:10:18,214 - training.model_ResNet50_opt_AdamW_lr_0.001_id_92 - INFO - Starting model evaluation
+2025-05-01 02:10:26,007 - training.model_ResNet50_opt_AdamW_lr_0.001_id_92 - INFO - Evaluation metrics:
+  Accuracy:  0.9376
+  Precision: 0.8704
+  Recall:    0.9161
+  F1 Score:  0.8927
+  IoU:       0.8062
+  mAP:       0.9451
+  AUC:       0.9757
+2025-05-01 02:10:26,009 - training.model_ResNet50_opt_AdamW_lr_0.001_id_92 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_AdamW_lr_0.001_id_92/final_results.json
+2025-05-01 02:10:26,010 - training.model_ResNet50_opt_AdamW_lr_0.001_id_92 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_AdamW_lr_0.001_id_92/final_results.json

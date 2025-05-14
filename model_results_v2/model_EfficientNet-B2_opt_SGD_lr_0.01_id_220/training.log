@@ -1,0 +1,26 @@
+2025-05-01 07:34:28,766 - training.model_EfficientNet-B2_opt_SGD_lr_0.01_id_220 - INFO - Initialized training manager for model_EfficientNet-B2_opt_SGD_lr_0.01_id_220
+2025-05-01 07:34:28,766 - training.model_EfficientNet-B2_opt_SGD_lr_0.01_id_220 - INFO - Config: {
+  "id": 220,
+  "model_name": "EfficientNet-B2",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 07:34:29,779 - training.model_EfficientNet-B2_opt_SGD_lr_0.01_id_220 - INFO - Starting model evaluation
+2025-05-01 07:34:40,942 - training.model_EfficientNet-B2_opt_SGD_lr_0.01_id_220 - INFO - Evaluation metrics:
+  Accuracy:  0.9693
+  Precision: 0.9293
+  Recall:    0.9650
+  F1 Score:  0.9468
+  IoU:       0.8990
+  mAP:       0.9882
+  AUC:       0.9922
+2025-05-01 07:34:40,944 - training.model_EfficientNet-B2_opt_SGD_lr_0.01_id_220 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.01_id_220/final_results.json
+2025-05-01 07:34:40,946 - training.model_EfficientNet-B2_opt_SGD_lr_0.01_id_220 - INFO - Final results saved to model_results_v2/model_EfficientNet-B2_opt_SGD_lr_0.01_id_220/final_results.json

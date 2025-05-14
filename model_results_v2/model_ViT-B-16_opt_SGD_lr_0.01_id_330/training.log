@@ -1,0 +1,27 @@
+2025-05-01 10:57:49,414 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_330 - INFO - Initialized training manager for model_ViT-B-16_opt_SGD_lr_0.01_id_330
+2025-05-01 10:57:49,414 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_330 - INFO - Config: {
+  "id": 330,
+  "model_name": "ViT-B-16",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 10:57:50,518 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_330 - INFO - Starting model evaluation
+2025-05-01 10:58:02,637 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_330 - INFO - Evaluation metrics:
+  Accuracy:  0.8910
+  Precision: 0.8235
+  Recall:    0.7832
+  F1 Score:  0.8029
+  IoU:       0.6707
+  mAP:       0.8788
+  AUC:       0.9360
+2025-05-01 10:58:02,639 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_330 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01_id_330/final_results.json
+2025-05-01 10:58:02,640 - training.model_ViT-B-16_opt_SGD_lr_0.01_id_330 - INFO - Final results saved to model_results_v2/model_ViT-B-16_opt_SGD_lr_0.01_id_330/final_results.json

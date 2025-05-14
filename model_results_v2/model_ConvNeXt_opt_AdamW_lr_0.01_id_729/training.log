@@ -1,0 +1,15 @@
+2025-05-03 12:45:46,059 - training.model_ConvNeXt_opt_AdamW_lr_0.01_id_729 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.01_id_729
+2025-05-03 12:45:46,059 - training.model_ConvNeXt_opt_AdamW_lr_0.01_id_729 - INFO - Config: {
+  "id": 729,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}

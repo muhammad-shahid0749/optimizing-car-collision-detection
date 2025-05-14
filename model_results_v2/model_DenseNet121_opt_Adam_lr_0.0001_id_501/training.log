@@ -1,0 +1,26 @@
+2025-05-03 05:07:33,369 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_501 - INFO - Initialized training manager for model_DenseNet121_opt_Adam_lr_0.0001_id_501
+2025-05-03 05:07:33,369 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_501 - INFO - Config: {
+  "id": 501,
+  "model_name": "DenseNet121",
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 05:07:33,948 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_501 - INFO - Starting model evaluation
+2025-05-03 05:07:45,709 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_501 - INFO - Evaluation metrics:
+  Accuracy:  0.9613
+  Precision: 0.9215
+  Recall:    0.9441
+  F1 Score:  0.9326
+  IoU:       0.8738
+  mAP:       0.9779
+  AUC:       0.9876
+2025-05-03 05:07:45,711 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_501 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_Adam_lr_0.0001_id_501/final_results.json
+2025-05-03 05:07:45,712 - training.model_DenseNet121_opt_Adam_lr_0.0001_id_501 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_Adam_lr_0.0001_id_501/final_results.json

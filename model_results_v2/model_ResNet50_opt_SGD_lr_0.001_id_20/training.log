@@ -1,0 +1,27 @@
+2025-05-01 00:20:49,720 - training.model_ResNet50_opt_SGD_lr_0.001_id_20 - INFO - Initialized training manager for model_ResNet50_opt_SGD_lr_0.001_id_20
+2025-05-01 00:20:49,720 - training.model_ResNet50_opt_SGD_lr_0.001_id_20 - INFO - Config: {
+  "id": 20,
+  "model_name": "ResNet50",
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 00:20:49,961 - training.model_ResNet50_opt_SGD_lr_0.001_id_20 - INFO - Starting model evaluation
+2025-05-01 00:20:58,749 - training.model_ResNet50_opt_SGD_lr_0.001_id_20 - INFO - Evaluation metrics:
+  Accuracy:  0.9534
+  Precision: 0.8970
+  Recall:    0.9441
+  F1 Score:  0.9199
+  IoU:       0.8517
+  mAP:       0.9818
+  AUC:       0.9912
+2025-05-01 00:20:58,750 - training.model_ResNet50_opt_SGD_lr_0.001_id_20 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_SGD_lr_0.001_id_20/final_results.json
+2025-05-01 00:20:58,752 - training.model_ResNet50_opt_SGD_lr_0.001_id_20 - INFO - Final results saved to model_results_v2/model_ResNet50_opt_SGD_lr_0.001_id_20/final_results.json

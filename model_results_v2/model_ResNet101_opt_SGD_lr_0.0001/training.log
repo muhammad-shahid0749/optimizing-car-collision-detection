@@ -1,0 +1,1526 @@
+2025-05-01 03:05:26,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:05:26,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 133,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:05:26,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - No checkpoint found, starting fresh training
+2025-05-01 03:05:26,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 1/20
+2025-05-01 03:05:47,695 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 0
+2025-05-01 03:06:15,584 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.0000 to 0.7873
+2025-05-01 03:06:15,692 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 1 completed in 49.26s - Train Loss: 0.6512, Train Acc: 0.6830, Val Loss: 0.5982, Val Acc: 0.7873
+2025-05-01 03:06:15,947 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 0
+2025-05-01 03:06:15,948 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 2/20
+2025-05-01 03:06:37,110 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 1
+2025-05-01 03:07:04,763 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.7873 to 0.8396
+2025-05-01 03:07:04,905 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 2 completed in 48.96s - Train Loss: 0.5755, Train Acc: 0.7969, Val Loss: 0.5380, Val Acc: 0.8396
+2025-05-01 03:07:05,171 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 1
+2025-05-01 03:07:05,171 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 3/20
+2025-05-01 03:07:26,388 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 2
+2025-05-01 03:07:54,272 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8396 to 0.8645
+2025-05-01 03:07:54,420 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 3 completed in 49.25s - Train Loss: 0.5279, Train Acc: 0.8331, Val Loss: 0.4999, Val Acc: 0.8645
+2025-05-01 03:07:54,684 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 2
+2025-05-01 03:07:54,684 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 4/20
+2025-05-01 03:08:15,958 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 3
+2025-05-01 03:08:43,458 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8645 to 0.8782
+2025-05-01 03:08:43,604 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 4 completed in 48.92s - Train Loss: 0.4957, Train Acc: 0.8580, Val Loss: 0.4730, Val Acc: 0.8782
+2025-05-01 03:08:43,863 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 3
+2025-05-01 03:08:43,863 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 5/20
+2025-05-01 03:09:04,918 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 4
+2025-05-01 03:09:32,726 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8782 to 0.8945
+2025-05-01 03:09:32,875 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 5 completed in 49.01s - Train Loss: 0.4698, Train Acc: 0.8730, Val Loss: 0.4503, Val Acc: 0.8945
+2025-05-01 03:09:33,139 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 4
+2025-05-01 03:09:33,140 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 6/20
+2025-05-01 03:09:54,383 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 5
+2025-05-01 03:10:22,035 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.8945 to 0.9134
+2025-05-01 03:10:22,176 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 6 completed in 49.04s - Train Loss: 0.4438, Train Acc: 0.9007, Val Loss: 0.4296, Val Acc: 0.9134
+2025-05-01 03:10:22,446 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 5
+2025-05-01 03:10:22,446 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 7/20
+2025-05-01 03:10:43,466 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 6
+2025-05-01 03:11:11,271 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9134 to 0.9142
+2025-05-01 03:11:11,415 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 7 completed in 48.97s - Train Loss: 0.4279, Train Acc: 0.9133, Val Loss: 0.4173, Val Acc: 0.9142
+2025-05-01 03:11:11,675 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 6
+2025-05-01 03:11:11,675 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 8/20
+2025-05-01 03:11:32,547 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 7
+2025-05-01 03:12:00,535 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9142 to 0.9314
+2025-05-01 03:12:00,675 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 8 completed in 49.00s - Train Loss: 0.4107, Train Acc: 0.9309, Val Loss: 0.4027, Val Acc: 0.9314
+2025-05-01 03:12:00,947 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 7
+2025-05-01 03:12:00,948 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 9/20
+2025-05-01 03:12:21,803 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 8
+2025-05-01 03:12:49,595 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9314 to 0.9365
+2025-05-01 03:12:49,737 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 9 completed in 48.79s - Train Loss: 0.3995, Train Acc: 0.9359, Val Loss: 0.3934, Val Acc: 0.9365
+2025-05-01 03:12:49,996 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 8
+2025-05-01 03:12:49,997 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 10/20
+2025-05-01 03:13:11,455 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 9
+2025-05-01 03:13:39,018 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9365 to 0.9400
+2025-05-01 03:13:39,164 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 10 completed in 49.17s - Train Loss: 0.3888, Train Acc: 0.9474, Val Loss: 0.3858, Val Acc: 0.9400
+2025-05-01 03:13:39,440 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 9
+2025-05-01 03:13:39,441 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 11/20
+2025-05-01 03:14:00,505 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 10
+2025-05-01 03:14:28,303 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9400 to 0.9468
+2025-05-01 03:14:28,449 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 11 completed in 49.01s - Train Loss: 0.3790, Train Acc: 0.9552, Val Loss: 0.3856, Val Acc: 0.9468
+2025-05-01 03:14:28,737 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 10
+2025-05-01 03:14:28,737 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 12/20
+2025-05-01 03:14:50,004 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 11
+2025-05-01 03:15:17,284 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation loss improved from inf to 0.3873
+2025-05-01 03:15:17,420 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 12 completed in 48.68s - Train Loss: 0.3785, Train Acc: 0.9547, Val Loss: 0.3873, Val Acc: 0.9391
+2025-05-01 03:15:17,675 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 11
+2025-05-01 03:15:17,675 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 13/20
+2025-05-01 03:15:38,837 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 12
+2025-05-01 03:16:06,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.3873 to 0.3835
+2025-05-01 03:16:06,405 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 13 completed in 48.73s - Train Loss: 0.3814, Train Acc: 0.9520, Val Loss: 0.3835, Val Acc: 0.9425
+2025-05-01 03:16:06,680 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 12
+2025-05-01 03:16:06,681 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 14/20
+2025-05-01 03:16:28,235 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 13
+2025-05-01 03:16:56,103 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation accuracy improved from 0.9468 to 0.9503
+2025-05-01 03:16:56,240 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 14 completed in 49.56s - Train Loss: 0.3779, Train Acc: 0.9558, Val Loss: 0.3803, Val Acc: 0.9503
+2025-05-01 03:16:56,493 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 13
+2025-05-01 03:16:56,493 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 15/20
+2025-05-01 03:17:18,035 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 14
+2025-05-01 03:17:45,814 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 15 completed in 49.32s - Train Loss: 0.3754, Train Acc: 0.9577, Val Loss: 0.3840, Val Acc: 0.9383
+2025-05-01 03:17:46,096 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 14
+2025-05-01 03:17:46,097 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 16/20
+2025-05-01 03:18:07,113 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 15
+2025-05-01 03:18:34,884 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.3835 to 0.3796
+2025-05-01 03:18:35,016 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 16 completed in 48.92s - Train Loss: 0.3778, Train Acc: 0.9565, Val Loss: 0.3796, Val Acc: 0.9460
+2025-05-01 03:18:35,287 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 15
+2025-05-01 03:18:35,288 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 17/20
+2025-05-01 03:18:56,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 16
+2025-05-01 03:19:24,324 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 17 completed in 49.04s - Train Loss: 0.3769, Train Acc: 0.9552, Val Loss: 0.3806, Val Acc: 0.9468
+2025-05-01 03:19:24,599 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 16
+2025-05-01 03:19:24,600 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 18/20
+2025-05-01 03:19:45,762 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 17
+2025-05-01 03:20:13,310 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.3796 to 0.3793
+2025-05-01 03:20:13,456 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 18 completed in 48.86s - Train Loss: 0.3731, Train Acc: 0.9603, Val Loss: 0.3793, Val Acc: 0.9451
+2025-05-01 03:20:13,721 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 17
+2025-05-01 03:20:13,721 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 19/20
+2025-05-01 03:20:35,095 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 18
+2025-05-01 03:21:02,362 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.3793 to 0.3769
+2025-05-01 03:21:02,523 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 19 completed in 48.80s - Train Loss: 0.3729, Train Acc: 0.9599, Val Loss: 0.3769, Val Acc: 0.9468
+2025-05-01 03:21:02,789 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 18
+2025-05-01 03:21:02,790 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Starting epoch 20/20
+2025-05-01 03:21:24,164 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 19
+2025-05-01 03:21:51,761 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Validation loss improved from 0.3769 to 0.3768
+2025-05-01 03:21:51,902 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Epoch 20 completed in 49.11s - Train Loss: 0.3748, Train Acc: 0.9616, Val Loss: 0.3768, Val Acc: 0.9485
+2025-05-01 03:21:52,155 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Checkpoint saved at epoch 19
+2025-05-01 03:21:52,156 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:01,924 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:01,924 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:01,924 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 134,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:22:01,924 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 134,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:22:01,924 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:01,924 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:02,023 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:02,023 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:02,025 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:02,025 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:11,528 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:11,528 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:11,528 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:11,528 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 135,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:22:11,528 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 135,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:22:11,528 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 135,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:22:11,528 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:11,528 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:11,528 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:11,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:11,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:11,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:11,628 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:11,628 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:11,628 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 136,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 136,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 136,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 136,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:21,627 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:21,727 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:21,727 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:21,727 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:21,727 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:21,804 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:21,804 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:21,804 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:21,804 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 137,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 137,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 137,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 137,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 137,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:32,708 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:32,807 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:32,807 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:32,807 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:32,807 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:32,807 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:32,808 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:32,808 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:32,808 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:32,808 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:32,808 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 138,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 138,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 138,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 138,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 138,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 138,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:42,314 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:42,414 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:42,414 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:42,414 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:42,414 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:42,414 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:42,414 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:42,416 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:42,416 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:42,416 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:42,416 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:42,416 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:42,416 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 139,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 139,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 139,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 139,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 139,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 139,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 139,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:51,781 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:22:51,878 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:51,878 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:51,878 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:51,878 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:51,878 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:51,878 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:51,878 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:22:51,879 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:51,879 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:51,879 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:51,879 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:51,879 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:51,879 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:22:51,879 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 140,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 140,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 140,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 140,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 140,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 140,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 140,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:01,522 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 140,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:01,523 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:01,523 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:01,523 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:01,523 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:01,523 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:01,523 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:01,523 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:01,523 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:01,618 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:01,618 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:01,618 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:01,618 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:01,618 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:01,618 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:01,618 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:01,618 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:01,620 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:01,620 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:01,620 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:01,620 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:01,620 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:01,620 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:01,620 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:01,620 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 141,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 141,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 141,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 141,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 141,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 141,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 141,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 141,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 141,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:11,387 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:11,485 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:11,485 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:11,485 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:11,485 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:11,485 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:11,485 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:11,485 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:11,485 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:11,485 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:11,486 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:11,486 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:11,486 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:11,486 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:11,486 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:11,486 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:11,486 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:11,486 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:11,486 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,192 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 142,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,193 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,291 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:21,292 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,249 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 143,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,250 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,346 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:31,347 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Initialized training manager for model_ResNet101_opt_SGD_lr_0.0001
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Config: {
+  "id": 144,
+  "model_name": "ResNet101",
+  "optimizer": "SGD",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,331 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Loading checkpoint from model_results_v2/model_ResNet101_opt_SGD_lr_0.0001/checkpoint.pt
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,428 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Resuming from epoch 20, best validation accuracy: 0.9503
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds
+2025-05-01 03:23:41,429 - training.model_ResNet101_opt_SGD_lr_0.0001 - INFO - Training completed after 985.47 seconds

@@ -1,0 +1,27 @@
+2025-05-01 06:49:19,960 - training.model_ResNet101_opt_AdamW_lr_0.001_id_203 - INFO - Initialized training manager for model_ResNet101_opt_AdamW_lr_0.001_id_203
+2025-05-01 06:49:19,960 - training.model_ResNet101_opt_AdamW_lr_0.001_id_203 - INFO - Config: {
+  "id": 203,
+  "model_name": "ResNet101",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-01 06:49:21,960 - training.model_ResNet101_opt_AdamW_lr_0.001_id_203 - INFO - Starting model evaluation
+2025-05-01 06:49:33,403 - training.model_ResNet101_opt_AdamW_lr_0.001_id_203 - INFO - Evaluation metrics:
+  Accuracy:  0.8811
+  Precision: 0.7530
+  Recall:    0.8636
+  F1 Score:  0.8046
+  IoU:       0.6730
+  mAP:       0.8895
+  AUC:       0.9401
+2025-05-01 06:49:33,405 - training.model_ResNet101_opt_AdamW_lr_0.001_id_203 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_AdamW_lr_0.001_id_203/final_results.json
+2025-05-01 06:49:33,406 - training.model_ResNet101_opt_AdamW_lr_0.001_id_203 - INFO - Final results saved to model_results_v2/model_ResNet101_opt_AdamW_lr_0.001_id_203/final_results.json

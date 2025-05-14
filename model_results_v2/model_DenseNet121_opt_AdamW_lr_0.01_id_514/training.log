@@ -1,0 +1,25 @@
+2025-05-03 05:28:59,683 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_514 - INFO - Initialized training manager for model_DenseNet121_opt_AdamW_lr_0.01_id_514
+2025-05-03 05:28:59,683 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_514 - INFO - Config: {
+  "id": 514,
+  "model_name": "DenseNet121",
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "CosineAnnealingWarmRestarts",
+    "T_0": 10
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 05:29:00,354 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_514 - INFO - Starting model evaluation
+2025-05-03 05:29:12,037 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_514 - INFO - Evaluation metrics:
+  Accuracy:  0.7166
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+  IoU:       0.0000
+  mAP:       0.2797
+  AUC:       0.5090
+2025-05-03 05:29:12,039 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_514 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_AdamW_lr_0.01_id_514/final_results.json
+2025-05-03 05:29:12,040 - training.model_DenseNet121_opt_AdamW_lr_0.01_id_514 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_AdamW_lr_0.01_id_514/final_results.json

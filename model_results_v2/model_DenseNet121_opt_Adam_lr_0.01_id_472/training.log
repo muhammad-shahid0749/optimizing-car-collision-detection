@@ -1,0 +1,26 @@
+2025-05-03 04:24:24,600 - training.model_DenseNet121_opt_Adam_lr_0.01_id_472 - INFO - Initialized training manager for model_DenseNet121_opt_Adam_lr_0.01_id_472
+2025-05-03 04:24:24,600 - training.model_DenseNet121_opt_Adam_lr_0.01_id_472 - INFO - Config: {
+  "id": 472,
+  "model_name": "DenseNet121",
+  "optimizer": "Adam",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 04:24:24,911 - training.model_DenseNet121_opt_Adam_lr_0.01_id_472 - INFO - Starting model evaluation
+2025-05-03 04:24:36,438 - training.model_DenseNet121_opt_Adam_lr_0.01_id_472 - INFO - Evaluation metrics:
+  Accuracy:  0.8424
+  Precision: 0.6841
+  Recall:    0.8252
+  F1 Score:  0.7480
+  IoU:       0.5975
+  mAP:       0.7571
+  AUC:       0.8963
+2025-05-03 04:24:36,440 - training.model_DenseNet121_opt_Adam_lr_0.01_id_472 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_Adam_lr_0.01_id_472/final_results.json
+2025-05-03 04:24:36,442 - training.model_DenseNet121_opt_Adam_lr_0.01_id_472 - INFO - Final results saved to model_results_v2/model_DenseNet121_opt_Adam_lr_0.01_id_472/final_results.json

@@ -1,0 +1,27 @@
+2025-05-03 08:55:48,259 - training.model_MobileNetV3_opt_AdamW_lr_0.0001_id_644 - INFO - Initialized training manager for model_MobileNetV3_opt_AdamW_lr_0.0001_id_644
+2025-05-03 08:55:48,259 - training.model_MobileNetV3_opt_AdamW_lr_0.0001_id_644 - INFO - Config: {
+  "id": 644,
+  "model_name": "MobileNetV3",
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "scheduler": {
+    "name": "CosineAnnealingLR",
+    "T_max": 10
+  },
+  "loss_fn": {
+    "name": "FocalLoss",
+    "alpha": 0.25,
+    "gamma": 2.0
+  }
+}
+2025-05-03 08:55:48,593 - training.model_MobileNetV3_opt_AdamW_lr_0.0001_id_644 - INFO - Starting model evaluation
+2025-05-03 08:55:57,928 - training.model_MobileNetV3_opt_AdamW_lr_0.0001_id_644 - INFO - Evaluation metrics:
+  Accuracy:  0.9673
+  Precision: 0.9288
+  Recall:    0.9580
+  F1 Score:  0.9432
+  IoU:       0.8925
+  mAP:       0.9715
+  AUC:       0.9921
+2025-05-03 08:55:57,930 - training.model_MobileNetV3_opt_AdamW_lr_0.0001_id_644 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_AdamW_lr_0.0001_id_644/final_results.json
+2025-05-03 08:55:57,932 - training.model_MobileNetV3_opt_AdamW_lr_0.0001_id_644 - INFO - Final results saved to model_results_v2/model_MobileNetV3_opt_AdamW_lr_0.0001_id_644/final_results.json

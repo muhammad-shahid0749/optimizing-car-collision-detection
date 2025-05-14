@@ -1,0 +1,27 @@
+2025-05-03 12:38:01,700 - training.model_ConvNeXt_opt_AdamW_lr_0.01_id_723 - INFO - Initialized training manager for model_ConvNeXt_opt_AdamW_lr_0.01_id_723
+2025-05-03 12:38:01,700 - training.model_ConvNeXt_opt_AdamW_lr_0.01_id_723 - INFO - Config: {
+  "id": 723,
+  "model_name": "ConvNeXt",
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "StepLR",
+    "step_size": 10,
+    "gamma": 0.1
+  },
+  "loss_fn": {
+    "name": "LabelSmoothing",
+    "smoothing": 0.1
+  }
+}
+2025-05-03 12:39:44,527 - training.model_ConvNeXt_opt_AdamW_lr_0.01_id_723 - INFO - Starting model evaluation
+2025-05-03 12:39:57,024 - training.model_ConvNeXt_opt_AdamW_lr_0.01_id_723 - INFO - Evaluation metrics:
+  Accuracy:  0.2834
+  Precision: 0.2834
+  Recall:    1.0000
+  F1 Score:  0.4417
+  IoU:       0.2834
+  mAP:       0.2834
+  AUC:       0.5000
+2025-05-03 12:39:57,025 - training.model_ConvNeXt_opt_AdamW_lr_0.01_id_723 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.01_id_723/final_results.json
+2025-05-03 12:39:57,027 - training.model_ConvNeXt_opt_AdamW_lr_0.01_id_723 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_AdamW_lr_0.01_id_723/final_results.json

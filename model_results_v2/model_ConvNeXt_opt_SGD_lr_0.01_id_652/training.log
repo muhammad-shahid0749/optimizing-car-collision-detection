@@ -1,0 +1,26 @@
+2025-05-03 09:30:29,918 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_652 - INFO - Initialized training manager for model_ConvNeXt_opt_SGD_lr_0.01_id_652
+2025-05-03 09:30:29,918 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_652 - INFO - Config: {
+  "id": 652,
+  "model_name": "ConvNeXt",
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "scheduler": {
+    "name": "ReduceLROnPlateau",
+    "patience": 5,
+    "factor": 0.5
+  },
+  "loss_fn": {
+    "name": "CrossEntropy"
+  }
+}
+2025-05-03 09:30:31,076 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_652 - INFO - Starting model evaluation
+2025-05-03 09:30:43,034 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_652 - INFO - Evaluation metrics:
+  Accuracy:  0.9524
+  Precision: 0.9020
+  Recall:    0.9336
+  F1 Score:  0.9175
+  IoU:       0.8476
+  mAP:       0.9622
+  AUC:       0.9816
+2025-05-03 09:30:43,036 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_652 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_SGD_lr_0.01_id_652/final_results.json
+2025-05-03 09:30:43,037 - training.model_ConvNeXt_opt_SGD_lr_0.01_id_652 - INFO - Final results saved to model_results_v2/model_ConvNeXt_opt_SGD_lr_0.01_id_652/final_results.json
